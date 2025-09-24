@@ -1,6 +1,6 @@
-# Youtube Trends and Google Trends Extraction Using Python (Data Pipeline Project)
+# Pipetrends
 
-An automated daily extraction of most popular Youtube video and Google trends using Python. 
+An automated tool for daily extraction of most popular Youtube video and Google trends using Python. 
 
 ## Documentation
 
