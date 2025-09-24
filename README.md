@@ -8,4 +8,4 @@ Pipetrends provides you with a tool that can extract most popular youtube videos
 - Alert and monitoring of data pipeline (<span style="color:green"><ins>In development</ins></span>)
 - Provides data transformation for analytics
 - Enables visualization with Jupyter notebook
- '#00A86B'
+  `#00A86B`
