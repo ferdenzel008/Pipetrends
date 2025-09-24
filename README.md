@@ -10,4 +10,4 @@ Pipetrends provides you with a tool that can extract most popular youtube videos
 - Enables visualization with Jupyter notebook
 
 ## Project Architecture
-![Project Architecture Diagram](https://github.com/ferdenzel008/Pipetrends/blob/main/images/Project_Architecture.jpg)
+![Project Architecture Diagram](https://github.com/ferdenzel008/Pipetrends/blob/main/images/Project%20Architecture.jpg)
