@@ -9,4 +9,4 @@ Pipetrends provides you with a tool that can extract most popular youtube videos
 - Provides data transformation for analytics
 - Enables visualization with Jupyter notebook
 
-<span style="color:blue">some *blue* text</span>
+    This text refers to the color: `#FF0000` (Red)
