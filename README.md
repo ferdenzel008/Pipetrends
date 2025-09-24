@@ -25,13 +25,17 @@ Pipetrends provides you with a tool that can extract most popular youtube videos
 ### Installation
 
 1. Clone the repository
+   ```bash
    git clone https://github.com/ferdenzel008/Pipetrends.git
-   cd Pipetrends  
-3. Create a virtual environment
+   cd Pipetrends
+   ```
+2. Create a virtual environment
+   ```bash
    python3 -m venv venv 
    source venv/bin/activate   # Use for Linux/macOS
    venv\Scripts\activate      # Use for Windows
-4. Create .env file (use the sample.env.txt file on the repo as guide)
-5. Install PostgreSQL (Link: https://www.postgresql.org/download/)
-6. Run the run_etl.sh file (Location: <project_folder>/scripts)
+   ```
+3. Create .env file (use the sample.env.txt file on the repo as guide)
+4. Install PostgreSQL (Link: https://www.postgresql.org/download/)
+5. Run the run_etl.sh file (Location: <project_folder>/scripts)
 
