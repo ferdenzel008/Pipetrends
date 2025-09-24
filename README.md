@@ -5,7 +5,7 @@ Pipetrends provides you with a tool that can extract most popular youtube videos
 - Collects trending Youtube videos via Youtube Data API v3 (daily)
 - Collects trending searches on Google daily via Selenium (daily)
 - Stores data in a database
-- Alert and monitoring of data pipeline (<font color= #00A86B;"><ins>In development</ins></font>)
+- Alert and monitoring of data pipeline (<font color= "green"><ins>In development</ins></font>)
 - Provides data transformation for analytics
 - Enables visualization with Jupyter notebook
 
