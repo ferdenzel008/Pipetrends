@@ -37,18 +37,17 @@ By consolidating YouTube trends and Google search insights into a single storage
 
 ## System Architecture
 
-Diagram showing:
+### Project Architecture Diagram:
+</br>
 ![Project Architecture Diagram](https://github.com/ferdenzel008/Pipetrends/blob/main/images/Project%20Architecture.jpg)
+</br>
+### Data Sources
 
-Each component explained:
+###ETL logic (extract, transform, load)
 
-## Data sources
+###Storage layer (e.g., PostgreSQL, Smartsheet)
 
-ETL logic (extract, transform, load)
-
-Storage layer (e.g., PostgreSQL, Smartsheet)
-
-Visualization
+###Visualization
 
 ## Data Sources
 
