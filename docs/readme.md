@@ -16,7 +16,7 @@ The project is built with Python and follows a complete ETL (Extract, Transform,
 3. Load the processed data into a PostgreSQL database for long-term storage and downstream analysis.
 </br>
 Additionally, the pipeline generates a log file that records key events and statuses during each run. This ensures better monitoring, debugging, and reproducibility of the data workflow.
-
+</br>
 </br>
 
 By consolidating YouTube trends and Google search insights into a single storage layer, this project enables easier reporting, analysis, and dashboarding (e.g., with Power BI or other BI tools).
