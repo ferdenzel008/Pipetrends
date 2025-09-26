@@ -38,7 +38,7 @@ By consolidating YouTube trends and Google search insights into a single storage
 ## System Architecture
 
 Diagram showing:
-APIs (YouTube, Google Trends) → ETL (Python) → Database → Dashboard (Power BI).
+![Project Architecture Diagram](https://github.com/ferdenzel008/Pipetrends/blob/main/images/Project%20Architecture.jpg)
 
 Each component explained:
 
