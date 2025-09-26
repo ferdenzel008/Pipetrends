@@ -87,7 +87,7 @@ By consolidating YouTube trends and Google search insights into a single storage
 
     - This aligns with the pipeline’s design to run once daily, ensuring that we always capture the most recent and relevant trends.
 
-This setup provides a practical balance between data availability and implementation complexity, focusing on the top 25 most significant search queries in the PH region each day. 
+  This setup provides a practical balance between data availability and implementation complexity, focusing on the top 25 most significant search queries in the PH region each day. 
 
 ### ETL logic (extract, transform, load)
 
