@@ -64,7 +64,30 @@ By consolidating YouTube trends and Google search insights into a single storage
   - Results per request: We limit API calls to 25 videos per request, which aligns with YouTube’s default maximum result size for this endpoint.
 
   This approach ensures that the pipeline efficiently captures trending video data while respecting API quota limits and focusing only on the most impactful videos in the PH region.
+  
 - Google Trends
+
+  In addition to YouTube, this project also sources from Google Trends to capture data that the people are actively searching for in the Philippines. Since the Google Trends website provides insights only through its        front-end interface, we implemented web scraping with Selenium to collect the trending queries.
+
+  - Query Limitations:
+
+    - The Google Trends table displays only 25 search queries at a time.
+
+    - Accessing queries beyond the top 25 requires clicking “Next” in the UI, which complicates scraping.
+
+    - Since Selenium is our current web scraping tool, we limit collection to the top 25 results per run.
+
+  - Sorting & Filtering:
+
+    - We apply a sort filter (highest → lowest search volume) so the pipeline captures the top trending queries used in the region.
+
+  - Timeframe:
+
+    - Data is collected for the last 24 hours.
+
+    - This aligns with the pipeline’s design to run once daily, ensuring that we always capture the most recent and relevant trends.
+
+This setup provides a practical balance between data availability and implementation complexity, focusing on the top 25 most significant search queries in the PH region each day. 
 
 ### ETL logic (extract, transform, load)
 
