@@ -2,6 +2,12 @@
 
 An automated tool for daily extraction of most popular Youtube video and Google trends using Python. 
 
+##Table of Contents
+-[Introduction]()
+-[System Architecture]()
+-
+
+
 ## Introduction
 
 Pipetrends is a data pipeline project that collects and processes trending information from two major sources:
