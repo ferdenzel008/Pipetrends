@@ -5,7 +5,15 @@ An automated tool for daily extraction of most popular Youtube video and Google 
 ## Table of Contents
 - [Introduction](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#introduction)
 - [System Architecture](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#system-architecture)
--
+- [Data Sources](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#data-sources)
+- [ETL Workflow](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#etl-workflow)
+- [Configuration](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#configuration)
+- [How to Run](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#how-to-run)
+- [Database Design](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#database-design)
+- [Visualization Layer](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#visualization-layer)
+- [Limitations & Future Improvements](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#limitations-&-future-improvements)
+- [Contributing](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#contributing)
+- [References](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#references)
 
 
 ## Introduction
@@ -34,7 +42,7 @@ APIs (YouTube, Google Trends) → ETL (Python) → Database → Dashboard (Power
 
 Each component explained:
 
-Data sources
+## Data sources
 
 ETL logic (extract, transform, load)
 
