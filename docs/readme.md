@@ -5,21 +5,19 @@ An automated tool for daily extraction of most popular Youtube video and Google 
 ## Introduction
 
 Pipetrends is a data pipeline project that collects and processes trending information from two major sources:
-
 - YouTube Data API → to retrieve trending videos and related analytical data.
-
 - Google Trends (via Selenium web scraping) → to capture real-time search trends along with the search volume for each search trends.
 
+</br>
+
 The project is built with Python and follows a complete ETL (Extract, Transform, Load) workflow:
-
 1. Extract raw data from APIs and web scraping.
-
 2. Transform the data by cleaning, normalizing, and structuring it into analytics-ready tables.
-
 3. Load the processed data into a PostgreSQL database for long-term storage and downstream analysis.
-
+</br>
 Additionally, the pipeline generates a log file that records key events and statuses during each run. This ensures better monitoring, debugging, and reproducibility of the data workflow.
 
+</br>
 
 By consolidating YouTube trends and Google search insights into a single storage layer, this project enables easier reporting, analysis, and dashboarding (e.g., with Power BI or other BI tools).
 
