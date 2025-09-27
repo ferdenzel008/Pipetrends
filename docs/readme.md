@@ -91,19 +91,14 @@ By consolidating YouTube trends and Google search insights into a single storage
 
 ### ETL logic (extract, transform, load)
 
+  - Extraction
+    -  Youtube
+      
+    -  Google Trends
+
 ### Storage layer (e.g., PostgreSQL, Smartsheet)
 
 ### Visualization
-
-## Data Sources
-
-Explain each source:
-
-YouTube Data API (which endpoints, e.g., trending videos, video stats)
-
-Google Trends (which parameters, e.g., region=PH, timeframe=24h)
-
-Mention any limits or quotas.
 
 ## ETL Workflow
 
