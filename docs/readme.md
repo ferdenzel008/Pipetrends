@@ -316,8 +316,103 @@ By consolidating YouTube trends and Google search insights into a single storage
 </br>
 
 ### Storage layer
+ In this section, we describe the database setup and schema definitions used to persist the extracted and transformed data. We are using PostgreSQL as our database.
 
+ - Database Setup
+   PostgreSQL needs to be installed and run locally. To create a database for this project:
 
+   1. Install PostgreSQL (via package manager, installer, or Docker).
+   2. Start the PostgreSQL service.
+   3. Create a new database (Take note of the DB name for the DATABASE_URL in the .env file)
+   4. (Optional) Create a dedicated user with permissions (Take note of the DB name for the DATABASE_URL in the .env file)
+
+   This sets up a local PostgreSQL environment to host our ETL pipeline data.
+
+ - Schema Definition
+   
+   ***
+   
+   We define our database schema in the src/models.sql file. This file creates (or verifies) the required tables and extensions:
+   ```python
+   CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+
+   CREATE TABLE IF NOT EXISTS videos (
+       id BIGSERIAL PRIMARY KEY,
+       video_id TEXT,
+       title TEXT,
+       description TEXT,
+       channel_id TEXT,
+       recorded_at TIMESTAMPTZ NOT NULL,
+       published_at TIMESTAMPTZ,
+       category_id TEXT
+   );
+   
+   CREATE TABLE IF NOT EXISTS video_stats (
+       id BIGSERIAL PRIMARY KEY,
+       video_id TEXT REFERENCES videos(video_id),
+       recorded_at TIMESTAMPTZ NOT NULL,
+       view_count BIGINT,
+       like_count BIGINT,
+       comment_count BIGINT,
+       UNIQUE (video_id, recorded_at)
+   );
+   
+   CREATE TABLE IF NOT EXISTS trends_queries (
+       id BIGSERIAL PRIMARY KEY,
+       query TEXT NOT NULL,
+       search_volume BIGINT,
+       region TEXT,
+       category_id TEXT,
+       retrieved_at TIMESTAMPTZ NOT NULL DEFAULT now()
+   );
+   
+   CREATE TABLE IF NOT EXISTS etl_runs (
+       id BIGSERIAL PRIMARY KEY,
+       job_name TEXT,
+       status TEXT,
+       started_at TIMESTAMPTZ,
+       finished_at TIMESTAMPTZ,
+       details TEXT
+   );
+   ```
+   - videos: Stores basic metadata about each YouTube video.
+   - video_stats: Stores daily/hourly snapshots of video engagement metrics.
+   - trends_queries: Stores trending Google search queries and their volumes.
+   - etl_runs: Logs metadata about ETL job executions (useful for monitoring).
+     
+   ***
+   
+ - Database Connection
+
+   ***
+
+   We use SQLAlchemy to interact with PostgreSQL. SQLAlchemy allows us to:
+
+    - Create an engine (connection to the database).
+    - Run raw SQL queries.
+    - Initialize or verify tables.
+
+   ```python
+   def get_engine() -> Engine:
+    global _engine
+    if _engine is None:
+        _engine = create_engine(DATABASE_URL, echo=False, future=True)
+    return _engine
+
+   def create_tables():
+    engine = get_engine()
+    with engine.begin() as conn, open("src/models.sql") as f:
+        sql = f.read()
+        conn.execute(text(sql))
+    logging.info("Tables created/verified.")
+    ```
+     - get_engine(): Creates a SQLAlchemy engine that can be reused throughout the project.
+     - init_db(): Reads models.sql and executes it, ensuring all required tables exist before loading data.
+
+    ***
+   
+</br>
+</br>
 
 ### Visualization
 
