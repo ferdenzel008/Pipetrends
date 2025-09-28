@@ -47,7 +47,7 @@ By consolidating YouTube trends and Google search insights into a single storage
 
 ### Data Sources
 
-- Youtube
+- ** Youtube **
 
   For this project, YouTube serves as a primary source of trending video content. Since the pipeline is designed to highlight what’s relevant to a local audience, we focus specifically on the Philippines (PH) region. By     doing this, we capture the most popular and relevant videos trending within that geographic area.
 
@@ -224,6 +224,10 @@ By consolidating YouTube trends and Google search insights into a single storage
       
 </br>
 </br>
+
+- Loading
+
+  
 
 ### Storage layer (e.g., PostgreSQL, Smartsheet)
 
