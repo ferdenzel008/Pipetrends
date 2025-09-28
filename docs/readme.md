@@ -1,7 +1,7 @@
 # Pipetrends
 
 An automated tool for daily extraction of most popular Youtube video and Google trends using Python. 
-
+***
 ## Table of Contents
 - [Introduction](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#introduction)
 - [System Architecture](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#system-architecture)
