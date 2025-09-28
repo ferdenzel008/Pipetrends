@@ -254,7 +254,7 @@ By consolidating YouTube trends and Google search insights into a single storage
   
   </br>
   
-  Next, we use SQLAlchemy, a Python library that enables us to run SQL queries directly from our code. More details can be found in the Storage Layer section of this documentation [Storage Layer](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#storage-layer)
+  Next, we use SQLAlchemy, a Python library that enables us to run SQL queries directly from our code. More details can be found in the [Storage Layer](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#storage-layer) section of this documentation. 
  
   </br>
   
