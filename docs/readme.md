@@ -286,7 +286,10 @@ By consolidating YouTube trends and Google search insights into a single storage
                     "retrieved_at": recorded_at
                 })
         ```
+    This structured loading process ensures that both YouTube and Google Trends data are consistently saved in PostgreSQL, making them available for downstream analysis and reporting.
 
+</br>
+</br>
   
 
 ### Storage layer (e.g., PostgreSQL, Smartsheet)
