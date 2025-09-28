@@ -89,6 +89,9 @@ By consolidating YouTube trends and Google search insights into a single storage
 
   This setup provides a practical balance between data availability and implementation complexity, focusing on the top 25 most significant search queries in the PH region each day. 
 
+</br>
+</br>
+
 ### ETL logic (extract, transform, load)
   
   - Extraction
@@ -137,12 +140,12 @@ By consolidating YouTube trends and Google search insights into a single storage
         - commentCount: The total number of comments.
       
       </br>
+      </br>
   
     - Google Trends
 
       Prerequisites:
 
-      - Python installed with Selenium library
       - Chrome browser
       - ChromeDriver (compatible with your Chrome version)
 
@@ -184,6 +187,9 @@ By consolidating YouTube trends and Google search insights into a single storage
 
       - Search Query: The trending keyword or phrase.
       - Search Volume: The popularity measure 
+
+</br>
+</br>
 
 ### Storage layer (e.g., PostgreSQL, Smartsheet)
 
