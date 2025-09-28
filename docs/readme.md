@@ -210,7 +210,7 @@ By consolidating YouTube trends and Google search insights into a single storage
 
     For Google Trends, the transformation focused mainly on cleaning and normalizing the search volume values.
       - searchQuery: Saved as TEXT, no transformation required.
-      - searchVolume: Google Trends sometimes represents values with symbols such as 200K+ or 1000+.
+      - searchVolume: Google Trends represents search volume values with symbols such as 200K+ or 1000+.
         - 200K+ should be normalized to 200000.
         - 1000+ should be normalized to 1000.
     </br>
