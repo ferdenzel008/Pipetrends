@@ -199,7 +199,7 @@ By consolidating YouTube trends and Google search insights into a single storage
       - title, description, channelId: Saved as TEXT, no transformation required.
       - publishedAt: Already in ISO 8601 date-time format, no transformation required.
       - viewCount, likeCount, commentCount: Parsed from string to INT before saving.
-        
+    </br>    
     This guarantees that the extracted data is properly aligned with PostgreSQL’s schema requirements.
 
     </br>
@@ -212,6 +212,7 @@ By consolidating YouTube trends and Google search insights into a single storage
       - searchVolume: Google Trends sometimes represents values with symbols such as 200K+ or 1000+.
         - 200K+ should be normalized to 200000.
         - 1000+ should be normalized to 1000.
+    </br>
     We implemented the following transformation logic in Python:
     ```python
     if "K" in search_volume:
