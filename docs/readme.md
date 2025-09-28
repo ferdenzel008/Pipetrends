@@ -438,18 +438,6 @@ Quick start command to run ETL.
 
 Optional: scheduling (e.g., cron job, Airflow, Mage, etc. if you extend it).
 
-## Database Design
-
-Show ER diagram or schema structure.
-
-Example:
-
-videos table (video_id, title, channel, published_at…)
-
-trends table (keyword, score, date…)
-
-video_stats table (video_id, views, likes, comments, recorded_at)
-
 ## Visualization Layer
 
 How to connect Power BI (or other BI tools).
