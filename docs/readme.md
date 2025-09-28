@@ -6,7 +6,7 @@ An automated tool for daily extraction of most popular Youtube video and Google 
 - [Introduction](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#introduction)
 - [System Architecture](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#system-architecture)
 - [Data Sources](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#data-sources)
-- [ETL Workflow](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#etl-workflow)
+- [ETL Logic](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#etl-logic-extract-transform-load)
 - [Configuration](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#configuration)
 - [How to Run](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#how-to-run)
 - [Database Design](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#database-design)
