@@ -55,11 +55,9 @@ By consolidating YouTube trends and Google search insights into a single storage
 
   - Parameters included:
 
-    - snippet → to capture video metadata such as title, channel, description, and publish time.
+    - snippet: to capture video metadata such as title, channel, description, and publish time.
 
-    - statistics → to track key engagement metrics like view count, like count, and comment count.
-
-    - contentDetails → to obtain information such as duration and definition (HD/SD).
+    - statistics: to track key engagement metrics like view count, like count, and comment count.
 
   - Results per request: We limit API calls to 25 videos per request, which aligns with YouTube’s default maximum result size for this endpoint.
 
