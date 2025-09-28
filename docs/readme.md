@@ -401,6 +401,7 @@ By consolidating YouTube trends and Google search insights into a single storage
     - Run raw SQL queries.
     - Initialize or verify tables.
 
+   We defined the necessary functions for the database connection on the src/db.py
    ```python
    def get_engine() -> Engine:
     global _engine
