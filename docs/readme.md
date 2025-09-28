@@ -95,8 +95,9 @@ By consolidating YouTube trends and Google search insights into a single storage
 ### ETL logic (extract, transform, load)
   
   - Extraction
-    
-    
+
+    </br>
+
     - Youtube
 
       Prerequisites:
@@ -186,8 +187,13 @@ By consolidating YouTube trends and Google search insights into a single storage
       Extracted Data Fields:
 
       - Search Query: The trending keyword or phrase.
-      - Search Volume: The popularity measure 
+      - Search Volume: The popularity measure
+    
+      </br>
+      </br>
 
+      - Transformation
+      
 </br>
 </br>
 
