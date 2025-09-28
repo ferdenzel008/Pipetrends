@@ -44,7 +44,9 @@ By consolidating YouTube trends and Google search insights into a single storage
 ![Project Architecture Diagram](https://github.com/ferdenzel008/Pipetrends/blob/main/images/Project%20Architecture.jpg)
 
 </br>
+
 ***
+
 ### Data Sources
 
 - **Youtube**
@@ -89,11 +91,15 @@ By consolidating YouTube trends and Google search insights into a single storage
 
 </br>
 </br>
+
 ***
+
 ### ETL logic (extract, transform, load)
   
   - **Extraction**
-
+  
+    ***
+  
     - **Youtube**
 
       **Prerequisites:**
