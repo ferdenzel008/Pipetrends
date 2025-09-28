@@ -90,11 +90,20 @@ By consolidating YouTube trends and Google search insights into a single storage
   This setup provides a practical balance between data availability and implementation complexity, focusing on the top 25 most significant search queries in the PH region each day. 
 
 ### ETL logic (extract, transform, load)
-
+  
   - Extraction
-    -  Youtube
-      
-    -  Google Trends
+    
+    
+    - Youtube
+      Prerequisites:
+      - Google account (For Google Console)
+      - Youtube API key
+
+      First we initialize the API client:
+       ```python
+       youtube = build("youtube", "v3", developerKey=YOUTUBE_API_KEY)
+       ```
+    - Google Trends
 
 ### Storage layer (e.g., PostgreSQL, Smartsheet)
 
