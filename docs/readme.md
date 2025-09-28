@@ -1,7 +1,7 @@
 # Pipetrends
 
 An automated tool for daily extraction of most popular Youtube video and Google trends using Python. 
-***
+
 ## Table of Contents
 - [Introduction](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#introduction)
 - [System Architecture](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#system-architecture)
@@ -44,7 +44,7 @@ By consolidating YouTube trends and Google search insights into a single storage
 ![Project Architecture Diagram](https://github.com/ferdenzel008/Pipetrends/blob/main/images/Project%20Architecture.jpg)
 
 </br>
-
+***
 ### Data Sources
 
 - **Youtube**
@@ -89,7 +89,7 @@ By consolidating YouTube trends and Google search insights into a single storage
 
 </br>
 </br>
-
+***
 ### ETL logic (extract, transform, load)
   
   - **Extraction**
@@ -291,7 +291,7 @@ By consolidating YouTube trends and Google search insights into a single storage
 
 </br>
 </br>
-  
+***  
 
 ### Storage layer (e.g., PostgreSQL, Smartsheet)
 
