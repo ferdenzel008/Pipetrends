@@ -112,13 +112,15 @@ By consolidating YouTube trends and Google search insights into a single storage
       Using the videos.list method on the Youtube Data API, we can extract the trending videos and their respective data. The list can be filtered by region and limit the number of results in the list. For more info you can check the videos.list method on Youtube Data        API's documentation (https://developers.google.com/youtube/v3/docs/videos/list)
       ```python
       request = youtube.videos().list(
-            part="snippet,statistics,contentDetails",
+            part="snippet,statistics",
             chart="mostPopular",
             regionCode=region,
             maxResults=min(max_results, 25)
         )
       ```
-
+        - snippet: This object contains the title, description, publishedAt, channelId, channelTitle, thumbnails, categoryId, liveBroadcastContent, and localized variables for the video.
+        - statistics: This object contains viewCount, likeCount, favoriteCount, commentCount variables for the video.
+      
       </br>
 
       fasdfq  
