@@ -225,7 +225,7 @@ By consolidating YouTube trends and Google search insights into a single storage
 </br>
 </br>
 
-- Loading
+- **Loading**
 
   To load the extracted and transformed data into our PostgreSQL database, we first define the schema using a models.sql file. This file creates (or verifies the existence of) the following tables:
 
@@ -239,9 +239,9 @@ By consolidating YouTube trends and Google search insights into a single storage
   </br>
   By leveraging SQLAlchemy, we can execute INSERT statements to load our processed data into the appropriate tables.
 
-  Insert Queries
+  **Insert Queries**
 
-    - YouTube Data
+    - **YouTube Data**
 
       - Insert into the videos table:
         ```python
@@ -271,7 +271,7 @@ By consolidating YouTube trends and Google search insights into a single storage
                     })
         ```
         </br>
-    - Google Trends Data
+    - **Google Trends Data**
       
       - Insert into the trends_queries table:
         ```python
@@ -286,6 +286,7 @@ By consolidating YouTube trends and Google search insights into a single storage
                     "retrieved_at": recorded_at
                 })
         ```
+    </br>
     This structured loading process ensures that both YouTube and Google Trends data are consistently saved in PostgreSQL, making them available for downstream analysis and reporting.
 
 </br>
