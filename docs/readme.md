@@ -297,18 +297,6 @@ By consolidating YouTube trends and Google search insights into a single storage
 
 ### Visualization
 
-## ETL Workflow
-
-Step-by-step explanation of your pipeline:
-
-Extract – Fetch raw data via APIs.
-
-Transform – Cleaning, handling duplicates, normalizing timestamps, aggregating trends.
-
-Load – Store results in database tables.
-
-Show sample schemas (tables, columns).
-
 ## Configuration
 
 Explain your .env file or config files.
