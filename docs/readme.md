@@ -191,6 +191,35 @@ By consolidating YouTube trends and Google search insights into a single storage
       </br>
 
 - Transformation
+
+  - Youtube
+    
+    As far as the transformation of data is concerned, we ensured that the data types in our PostgreSQL tables matched the extracted data.
+
+      - title, description, channelId: Saved as TEXT, no transformation required.
+      - publishedAt: Already in ISO 8601 date-time format, no transformation required.
+      - viewCount, likeCount, commentCount: Parsed from string to INT before saving.
+        
+    This guarantees that the extracted data is properly aligned with PostgreSQL’s schema requirements.
+
+    </br>
+    </br>
+
+  - Google Trends
+
+    For Google Trends, the transformation focused mainly on cleaning and normalizing the search volume values.
+      - searchQuery: Saved as TEXT, no transformation required.
+      - searchVolume: Google Trends sometimes represents values with symbols such as 200K+ or 1000+.
+        - 200K+ should be normalized to 200000.
+        - 1000+ should be normalized to 1000.
+    We implemented the following transformation logic in Python:
+    ```python
+    if "K" in search_volume:
+      search_volume = search_volume.replace("K+", "000")
+    else:
+      search_volume = search_volume.replace("+", "")
+    ```
+    After transformation, search_volume is stored as INT in the database.
       
 </br>
 </br>
