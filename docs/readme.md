@@ -193,11 +193,13 @@ By consolidating YouTube trends and Google search insights into a single storage
 
       - Search Query: The trending keyword or phrase.
       - Search Volume: The popularity measure
-    
+     
+    ***
+
       </br>
       </br>
       
-   ***
+   
  
 - **Transformation**
   
@@ -233,11 +235,13 @@ By consolidating YouTube trends and Google search insights into a single storage
       search_volume = search_volume.replace("+", "")
     ```
     After transformation, search_volume is stored as INT in the database.
+
+  ***
       
 </br>
 </br>
   
-  ***
+  
   
 - **Loading**
   ***
