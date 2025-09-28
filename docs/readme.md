@@ -120,6 +120,21 @@ By consolidating YouTube trends and Google search insights into a single storage
       ```
         - snippet: This object contains the title, description, publishedAt, channelId, channelTitle, thumbnails, categoryId, liveBroadcastContent, and localized variables for the video.
         - statistics: This object contains viewCount, likeCount, favoriteCount, commentCount variables for the video.
+
+      </br>
+
+      Extracted Data Fields:
+      - Video ID
+      - Snippet
+        - title: The title of the video.
+        - description: The description provided by the uploader.
+        - publishedAt: The date and time the video was published.
+        - channelId: The unique ID of the channel that uploaded the video.
+
+      - Statistics
+        - viewCount: The total number of views.
+        - likeCount: The total number of likes.
+        - commentCount: The total number of comments.
       
       </br>
   
@@ -168,7 +183,7 @@ By consolidating YouTube trends and Google search insights into a single storage
       Extracted Data Fields:
 
       - Search Query: The trending keyword or phrase.
-      - Search Volume: The popularity measure (relative, not absolute) for the search query.
+      - Search Volume: The popularity measure 
 
 ### Storage layer (e.g., PostgreSQL, Smartsheet)
 
