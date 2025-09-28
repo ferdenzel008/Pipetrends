@@ -192,7 +192,7 @@ By consolidating YouTube trends and Google search insights into a single storage
       </br>
       </br>
 
-      - Transformation
+- Transformation
       
 </br>
 </br>
