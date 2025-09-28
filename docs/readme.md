@@ -175,6 +175,7 @@ By consolidating YouTube trends and Google search insights into a single storage
       Scraping Logic:
 
       Using Selenium, we locate the div elements containing the search query and search volume. These can be identified through their CSS selectors.
+      
       ```python
       trending_elements = driver.find_elements(By.CSS_SELECTOR, "div.mZ3RIc")
       search_volume_elem = driver.find_elements(By.CSS_SELECTOR, "div.lqv0Cb")
@@ -214,6 +215,7 @@ By consolidating YouTube trends and Google search insights into a single storage
         - 1000+ should be normalized to 1000.
     </br>
     We implemented the following transformation logic in Python:
+
     ```python
     if "K" in search_volume:
       search_volume = search_volume.replace("K+", "000")
