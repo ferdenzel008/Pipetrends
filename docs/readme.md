@@ -420,7 +420,10 @@ By consolidating YouTube trends and Google search insights into a single storage
      - init_db(): Reads models.sql and executes it, ensuring all required tables exist before loading data.
 
     ***
-   
+ - Database Design
+
+   ![Database Schema Diagram](https://github.com/ferdenzel008/Pipetrends/blob/2e731fa8a12972d11006b39e38f1cb8567168742/images/Database%20Schema%20Diagram.png)
+
 </br>
 </br>
 
