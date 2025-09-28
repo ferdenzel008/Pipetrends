@@ -312,7 +312,9 @@ By consolidating YouTube trends and Google search insights into a single storage
 </br>
 </br>
 
-### Storage layer (e.g., PostgreSQL, Smartsheet)
+### Storage layer
+
+
 
 ### Visualization
 
