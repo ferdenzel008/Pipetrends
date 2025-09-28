@@ -197,10 +197,12 @@ By consolidating YouTube trends and Google search insights into a single storage
       </br>
       </br>
       
-  ***
+   ***
  
 - **Transformation**
-
+  
+  ***
+  
   - **Youtube**
     
     As far as the transformation of data is concerned, we ensured that the data types in our PostgreSQL tables matched the extracted data.
