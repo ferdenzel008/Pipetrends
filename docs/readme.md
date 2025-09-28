@@ -319,6 +319,9 @@ By consolidating YouTube trends and Google search insights into a single storage
  In this section, we describe the database setup and schema definitions used to persist the extracted and transformed data. We are using PostgreSQL as our database.
 
  - Database Setup
+
+   ***
+
    PostgreSQL needs to be installed and run locally. To create a database for this project:
 
    1. Install PostgreSQL (via package manager, installer, or Docker).
@@ -327,6 +330,10 @@ By consolidating YouTube trends and Google search insights into a single storage
    4. (Optional) Create a dedicated user with permissions (Take note of the DB name for the DATABASE_URL in the .env file)
 
    This sets up a local PostgreSQL environment to host our ETL pipeline data.
+
+   ***
+
+</br>
 
  - Schema Definition
    
@@ -381,7 +388,9 @@ By consolidating YouTube trends and Google search insights into a single storage
    - etl_runs: Logs metadata about ETL job executions (useful for monitoring).
      
    ***
-   
+
+</br>
+
  - Database Connection
 
    ***
