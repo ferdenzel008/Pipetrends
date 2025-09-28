@@ -197,7 +197,7 @@ By consolidating YouTube trends and Google search insights into a single storage
       </br>
       </br>
       
- ***
+  ***
  
 - **Transformation**
 
@@ -234,9 +234,11 @@ By consolidating YouTube trends and Google search insights into a single storage
       
 </br>
 </br>
-
+  
+  ***
+  
 - **Loading**
-
+  ***
   To load the extracted and transformed data into our PostgreSQL database, we first define the schema using a models.sql file. This file creates (or verifies the existence of) the following tables:
 
     - videos
@@ -298,10 +300,11 @@ By consolidating YouTube trends and Google search insights into a single storage
         ```
     </br>
     This structured loading process ensures that both YouTube and Google Trends data are consistently saved in PostgreSQL, making them available for downstream analysis and reporting.
-
+    
+  ***
+  
 </br>
 </br>
-***  
 
 ### Storage layer (e.g., PostgreSQL, Smartsheet)
 
