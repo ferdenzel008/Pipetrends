@@ -45,12 +45,10 @@ By consolidating YouTube trends and Google search insights into a single storage
 
 </br>
 
-***
-
 ### Data Sources
 
 - **Youtube**
-
+  ***
   For this project, YouTube serves as a primary source of trending video content. Since the pipeline is designed to highlight what’s relevant to a local audience, we focus specifically on the Philippines (PH) region. By     doing this, we capture the most popular and relevant videos trending within that geographic area.
 
   - Endpoint used: videos.list() from the YouTube Data API.
@@ -64,6 +62,8 @@ By consolidating YouTube trends and Google search insights into a single storage
   - Results per request: We limit API calls to 25 videos per request, which aligns with YouTube’s default maximum result size for this endpoint.
 
   This approach ensures that the pipeline efficiently captures trending video data while respecting API quota limits and focusing only on the most impactful videos in the PH region.
+
+  ***
   
 - **Google Trends**
 
