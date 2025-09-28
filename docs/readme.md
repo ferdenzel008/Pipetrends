@@ -95,14 +95,20 @@ By consolidating YouTube trends and Google search insights into a single storage
     
     
     - Youtube
+
       Prerequisites:
       - Google account (For Google Console)
       - Youtube API key
-
+    
+      </br>
+      
       First we initialize the API client:
        ```python
        youtube = build("youtube", "v3", developerKey=YOUTUBE_API_KEY)
        ```
+       
+       </br>
+       
       Using the videos.list method on the Youtube Data API, we can extract the trending videos and their respective data. The list can be filtered by region and limit the number of results in the list. For more info you can check the videos.list method on Youtube Data        API's documentation (https://developers.google.com/youtube/v3/docs/videos/list)
       ```python
       request = youtube.videos().list(
@@ -112,6 +118,10 @@ By consolidating YouTube trends and Google search insights into a single storage
             maxResults=min(max_results, 25)
         )
       ```
+
+      </br>
+
+      fasdfq  
     - Google Trends
 
 ### Storage layer (e.g., PostgreSQL, Smartsheet)
