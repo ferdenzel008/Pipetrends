@@ -122,9 +122,53 @@ By consolidating YouTube trends and Google search insights into a single storage
         - statistics: This object contains viewCount, likeCount, favoriteCount, commentCount variables for the video.
       
       </br>
-
-      fasdfq  
+  
     - Google Trends
+
+      Prerequisites:
+
+      - Python installed with Selenium library
+      - Chrome browser
+      - ChromeDriver (compatible with your Chrome version)
+
+      </br>
+
+      First, initialize the Selenium Chrome driver:
+
+      ```python
+      options = webdriver.ChromeOptions()
+      options.add_argument("--headless")  # run without opening browser
+      driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+      ```
+
+      </br>
+
+      Next, set the URL for scraping:
+      ```python
+      url = "https://trends.google.com/trending?geo=PH&hl=en-US&tz=360&sort=search-volume&hours=24"
+      driver.get(url)
+      time.sleep(10)
+      ```
+      - geo=PH: Filters the trends to the Philippines.
+      - sort=search-volume: Ensures queries are sorted by highest search volume.
+      - hours=24: Limits the data to only the last 24 hours of trends.
+
+      </br>
+
+      Scraping Logic:
+
+      Using Selenium, we locate the div elements containing the search query and search volume. These can be identified through their CSS selectors.
+      ```python
+      trending_elements = driver.find_elements(By.CSS_SELECTOR, "div.mZ3RIc")
+      search_volume_elem = driver.find_elements(By.CSS_SELECTOR, "div.lqv0Cb")
+      ```
+
+      </br>
+
+      Extracted Data Fields:
+
+      - Search Query: The trending keyword or phrase.
+      - Search Volume: The popularity measure (relative, not absolute) for the search query.
 
 ### Storage layer (e.g., PostgreSQL, Smartsheet)
 
