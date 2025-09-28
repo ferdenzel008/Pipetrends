@@ -67,6 +67,8 @@ By consolidating YouTube trends and Google search insights into a single storage
   
 - **Google Trends**
 
+ ***
+
   In addition to YouTube, this project also sources from Google Trends to capture data that the people are actively searching for in the Philippines. Since the Google Trends website provides insights only through its        front-end interface, we implemented web scraping with Selenium to collect the trending queries.
 
   - **Query Limitations:**
@@ -89,6 +91,8 @@ By consolidating YouTube trends and Google search insights into a single storage
 
   This setup provides a practical balance between data availability and implementation complexity, focusing on the top 25 most significant search queries in the PH region each day. 
 
+ ***
+  
 </br>
 </br>
 
@@ -194,7 +198,9 @@ By consolidating YouTube trends and Google search insights into a single storage
     
       </br>
       </br>
-
+      
+ ***
+ 
 - **Transformation**
 
   - **Youtube**
