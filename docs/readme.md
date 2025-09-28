@@ -53,7 +53,7 @@ By consolidating YouTube trends and Google search insights into a single storage
 
   - Endpoint used: videos.list() from the YouTube Data API.
 
-  - Parameters included:
+  - **Parameters included:**
 
     - snippet: to capture video metadata such as title, channel, description, and publish time.
 
@@ -63,11 +63,11 @@ By consolidating YouTube trends and Google search insights into a single storage
 
   This approach ensures that the pipeline efficiently captures trending video data while respecting API quota limits and focusing only on the most impactful videos in the PH region.
   
-- Google Trends
+- **Google Trends**
 
   In addition to YouTube, this project also sources from Google Trends to capture data that the people are actively searching for in the Philippines. Since the Google Trends website provides insights only through its        front-end interface, we implemented web scraping with Selenium to collect the trending queries.
 
-  - Query Limitations:
+  - **Query Limitations:**
 
     - The Google Trends table displays only 25 search queries at a time.
 
@@ -75,11 +75,11 @@ By consolidating YouTube trends and Google search insights into a single storage
 
     - Since Selenium is our current web scraping tool, we limit collection to the top 25 results per run.
 
-  - Sorting & Filtering:
+  - **Sorting & Filtering:**
 
     - We apply a sort filter (highest → lowest search volume) so the pipeline captures the top trending queries used in the region.
 
-  - Timeframe:
+  - **Timeframe:**
 
     - Data is collected for the last 24 hours.
 
@@ -92,11 +92,11 @@ By consolidating YouTube trends and Google search insights into a single storage
 
 ### ETL logic (extract, transform, load)
   
-  - Extraction
+  - **Extraction**
 
-    - Youtube
+    - **Youtube**
 
-      Prerequisites:
+      **Prerequisites:**
       - Google account (For Google Console)
       - Youtube API key
     
@@ -123,7 +123,7 @@ By consolidating YouTube trends and Google search insights into a single storage
 
       </br>
 
-      Extracted Data Fields:
+      **Extracted Data Fields:**
       - Video ID
       - Snippet
         - title: The title of the video.
@@ -139,9 +139,9 @@ By consolidating YouTube trends and Google search insights into a single storage
       </br>
       </br>
   
-    - Google Trends
+    - **Google Trends**
 
-      Prerequisites:
+      **Prerequisites:**
 
       - Chrome browser
       - ChromeDriver (compatible with your Chrome version)
@@ -170,7 +170,7 @@ By consolidating YouTube trends and Google search insights into a single storage
 
       </br>
 
-      Scraping Logic:
+      **Scraping Logic:**
 
       Using Selenium, we locate the div elements containing the search query and search volume. These can be identified through their CSS selectors.
       
@@ -181,7 +181,7 @@ By consolidating YouTube trends and Google search insights into a single storage
 
       </br>
 
-      Extracted Data Fields:
+      **Extracted Data Fields:**
 
       - Search Query: The trending keyword or phrase.
       - Search Volume: The popularity measure
@@ -189,9 +189,9 @@ By consolidating YouTube trends and Google search insights into a single storage
       </br>
       </br>
 
-- Transformation
+- **Transformation**
 
-  - Youtube
+  - **Youtube**
     
     As far as the transformation of data is concerned, we ensured that the data types in our PostgreSQL tables matched the extracted data.
 
@@ -204,7 +204,7 @@ By consolidating YouTube trends and Google search insights into a single storage
     </br>
     </br>
 
-  - Google Trends
+  - **Google Trends**
 
     For Google Trends, the transformation focused mainly on cleaning and normalizing the search volume values.
       - searchQuery: Saved as TEXT, no transformation required.
@@ -226,6 +226,66 @@ By consolidating YouTube trends and Google search insights into a single storage
 </br>
 
 - Loading
+
+  To load the extracted and transformed data into our PostgreSQL database, we first define the schema using a models.sql file. This file creates (or verifies the existence of) the following tables:
+
+    - videos
+    - video_stats
+    - trends_queries
+    - etl_runs
+  </br>
+  Next, we use SQLAlchemy, a Python library that enables us to run SQL queries directly from our code.
+  (More details can be found in the Storage Layer section of this documentation — link to be added later.)
+  </br>
+  By leveraging SQLAlchemy, we can execute INSERT statements to load our processed data into the appropriate tables.
+
+  Insert Queries
+
+    - YouTube Data
+
+      - Insert into the videos table:
+        ```python
+        conn.execute(text("""
+                        INSERT INTO videos(video_id, title, description, channel_id, recorded_at, published_at)
+                        VALUES (:video_id, :title, :description, :channel_id, :recorded_at, :published_at)   
+                    """), {
+                        "video_id": vid,
+                        "title": snippet.get("title"),
+                        "description": snippet.get("description"),
+                        "channel_id": snippet.get("channelId"),
+                        "published_at": snippet.get("publishedAt"),
+                        "recorded_at": recorded_at    
+                    })
+        ```
+      - Insert into the video_stats table:
+        ```python
+        conn.execute(text("""
+                        INSERT INTO video_stats (video_id, recorded_at, view_count, like_count, comment_count)
+                        VALUES (:video_id, :recorded_at, :view_count, :like_count, :comment_count)
+                    """), {
+                        "video_id": vid,
+                        "recorded_at": recorded_at,
+                        "view_count": int(stats.get("viewCount", 0)),
+                        "like_count": int(stats.get("likeCount", 0)) if stats.get("likeCount") else None,
+                        "comment_count": int(stats.get("commentCount", 0)) if stats.get("commentCount") else None,
+                    })
+        ```
+        </br>
+    - Google Trends Data
+      
+      - Insert into the trends_queries table:
+        ```python
+        conn.execute(text("""
+                    INSERT INTO trends_queries(query, search_volume, region, category_id, retrieved_at)
+                    VALUES (:query, :search_volume, :region, :category_id, :retrieved_at)    
+                """), {
+                    "query": query,
+                    "search_volume": search_volume_int,
+                    "region": REGION_CODE,
+                    "category_id": 0,
+                    "retrieved_at": recorded_at
+                })
+        ```
 
   
 
