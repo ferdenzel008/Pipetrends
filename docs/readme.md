@@ -427,25 +427,25 @@ By consolidating YouTube trends and Google search insights into a single storage
 
    ![Database Schema Diagram](https://github.com/ferdenzel008/Pipetrends/blob/2e731fa8a12972d11006b39e38f1cb8567168742/images/Database%20Schema%20Diagram.png)
 
-   This database is structured to support tracking YouTube video data, statistics, and ETL processes.
+   This database is structured to support tracking YouTube video data , Google Trends data, and ETL processes.
 
     1. videos
-     - Stores metadata about each YouTube video such as video_id, title, description, channel_id, and timestamps (recorded_at, published_at).
-     - Acts as the central table, with other tables referencing it through video_id.
+      - Stores metadata about each YouTube video such as video_id, title, description, channel_id, and timestamps (recorded_at, published_at).
+      - Acts as the central table, with other tables referencing it through video_id.
 
     2. video_stats
-     - Contains time-series data of a video’s performance: view_count, like_count, and comment_count.
-     - Each record is tied to a video_id and a recorded_at timestamp, allowing historical trend tracking.
-     - The (video_id, recorded_at) pair is unique, ensuring no duplicate statistics for the same video snapshot.
+      - Contains time-series data of a video’s performance: view_count, like_count, and comment_count.
+      - Each record is tied to a video_id and a recorded_at timestamp, allowing historical trend tracking.
+      - The (video_id, recorded_at) pair is unique, ensuring no duplicate statistics for the same video snapshot.
 
     3. trends_queries
-     - Stores trending search queries from Google Trends (or similar sources).   
-     - Fields like query, search_volume, region, and category_id help capture contextual data.     
-     - retrieved_at shows when the data was collected, supporting time-based trend analysis.
+      - Stores trending search queries from Google Trends (or similar sources).   
+      - Fields like query, search_volume, region, and category_id help capture contextual data.     
+      - retrieved_at shows when the data was collected, supporting time-based trend analysis.
     
     4. etl_runs   
-     - Logs ETL pipeline executions.   
-     - Tracks job name, status, start and finish times, and optional details for monitoring and debugging.
+      - Logs ETL pipeline executions.   
+      - Tracks job name, status, start and finish times, and optional details for monitoring and debugging.
 
     ***
       
