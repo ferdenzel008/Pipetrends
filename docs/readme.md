@@ -253,7 +253,7 @@ By consolidating YouTube trends and Google search insights into a single storage
     - etl_runs
   </br>
   Next, we use SQLAlchemy, a Python library that enables us to run SQL queries directly from our code.
-  (More details can be found in the Storage Layer section of this documentation — [Storage Layer](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#storage-layer) .)
+  More details can be found in the Storage Layer section of this documentation [Storage Layer](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#storage-layer) 
   </br>
   By leveraging SQLAlchemy, we can execute INSERT statements to load our processed data into the appropriate tables.
 
