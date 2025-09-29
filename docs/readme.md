@@ -19,8 +19,8 @@ An automated tool for daily extraction of most popular Youtube video and Google 
 ## Introduction
 
 Pipetrends is a data pipeline project that collects and processes trending information from two major sources:
-- YouTube Data API → to retrieve trending videos and related analytical data.
-- Google Trends (via Selenium web scraping) → to capture real-time search trends along with the search volume for each search trends.
+- YouTube Data API: to retrieve trending videos and related analytical data.
+- Google Trends (via Selenium web scraping): to capture real-time search trends along with the search volume for each search trends.
 
 </br>
 
@@ -49,7 +49,7 @@ By consolidating YouTube trends and Google search insights into a single storage
 
 - **Youtube**
   ***
-  For this project, YouTube serves as a primary source of trending video content. Since the pipeline is designed to highlight what’s relevant to a local audience, we focus specifically on the Philippines (PH) region. By     doing this, we capture the most popular and relevant videos trending within that geographic area.
+  For this project, YouTube serves as a primary source of trending video content. Since the pipeline is designed to highlight what’s relevant to a local audience, we focus specifically on the Philippines (PH) region. By doing this, we capture the most popular and relevant videos trending within that geographic area.
 
   - Endpoint used: videos.list() from the YouTube Data API.
 
@@ -318,7 +318,7 @@ By consolidating YouTube trends and Google search insights into a single storage
 ### Storage layer
  In this section, we describe the database setup and schema definitions used to persist the extracted and transformed data. We are using PostgreSQL as our database.
 
- - Database Setup
+ - **Database Setup**
 
    ***
 
@@ -335,7 +335,7 @@ By consolidating YouTube trends and Google search insights into a single storage
 
 </br>
 
- - Schema Definition
+ - **Schema Definition**
    
    ***
    
@@ -391,7 +391,7 @@ By consolidating YouTube trends and Google search insights into a single storage
 
 </br>
 
- - Database Connection
+ - **Database Connection**
 
    ***
 
@@ -421,7 +421,7 @@ By consolidating YouTube trends and Google search insights into a single storage
 
     ***
    
- - Database Design
+ - **Database Design**
 
    ***
 
@@ -457,24 +457,25 @@ By consolidating YouTube trends and Google search insights into a single storage
 </br>
 
 ### Visualization
+
 Word Cloud                 |  Content Gaps             | Trend Alignment
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/ferdenzel008/Pipetrends/blob/main/sampleoutputs/wordcloud.png)  |  ![](https://github.com/ferdenzel008/Pipetrends/blob/main/sampleoutputs/contentgaps.png) | ![](https://github.com/ferdenzel008/Pipetrends/blob/main/sampleoutputs/trend_alignment.png)
 
  The visualizations highlight insights from YouTube and Google Trends data.
  
- - Word Cloud (YouTube Trending Keywords)
+ - **Word Cloud (YouTube Trending Keywords)**
  This chart shows the most frequent keywords from today’s trending YouTube content. Larger words indicates higher frequency and stronger influence in current trends.
  
- - Content Gaps (Google Trends vs. YouTube Trending)
+ - **Content Gaps (Google Trends vs. YouTube Trending)**
  The horizontal bar chart identifies the top 10 trending search queries from Google Trends that are not reflected in YouTube trending content. This reveals opportunities for content creators to address gaps.”
  
- - Trend Alignment (YouTube vs. Google Trends)
+ - **Trend Alignment (YouTube vs. Google Trends)**
  The bubble chart compares the volume of keywords between YouTube Trending and Google Trends. The large bubble for YouTube Trending illustrates its higher keyword count, while the smaller Google Trends bubble shows fewer overlapping topics, emphasizing misalignment between the two platforms.
  
  These outputs are automatically saved in the notebooks/outputs/ folder. They will only appear after running all the cells in the dashboard.ipynb file.
 
- - About dashboard.ipynb
+ - **About dashboard.ipynb**
  
    The dashboard.ipynb notebook acts as the central workflow for this project. It:
    
@@ -492,12 +493,12 @@ Word Cloud                 |  Content Gaps             | Trend Alignment
 
  Here are the variables defined in the .env file:
  
-  - YOUTUBE_API_KEY
+  - **YOUTUBE_API_KEY**
   
     - Stores the API key used to authenticate requests to the YouTube Data API v3.
     - Required for retrieving trending video data and related metadata.
   
-  - DATABASE_URL
+  - **DATABASE_URL**
   
     - Defines the connection string for the local PostgreSQL database.
     - The format is:
@@ -506,7 +507,7 @@ Word Cloud                 |  Content Gaps             | Trend Alignment
       ```
     - This allows SQLAlchemy to connect to the database and retrieve/store data.
   
-  - REGION_CODE
+  - **REGION_CODE**
   
     - Specifies the target region for data collection (in this case, PH for the Philippines).
     - Ensures that API queries are region-specific, returning localized trends.
@@ -557,7 +558,7 @@ Word Cloud                 |  Content Gaps             | Trend Alignment
  
     This script will automatically run the entire project pipeline from data extraction to loading into the database, except for the visualization part which must be generated separately through the dashboard.ipynb notebook.
  
- - Optional Scheduling the Script
+ - **Optional Scheduling the Script**
  
    To automate daily runs, you can set up a scheduling tool of your choice. For example:
    
