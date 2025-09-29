@@ -478,7 +478,7 @@ Word Cloud                 |  Content Gaps             | Trend Alignment
  
    The dashboard.ipynb notebook acts as the central workflow for this project. It:
    
-   - Connects to the local database using SQLAlchemy to retrieve trend data,
+   - Connects to the local PostgreSQL database using SQLAlchemy to retrieve trend data,
    - Processes and cleans the data with pandas,
    - Generates visualizations with matplotlib (and supporting libraries),
    - Exports the resulting charts and word clouds into the notebooks/outputs/ folder for reporting and presentation.
@@ -490,9 +490,30 @@ Word Cloud                 |  Content Gaps             | Trend Alignment
 
 ## Configuration
 
-Explain your .env file or config files.
+ Here are the variables defined in the .env file:
+ 
+  - YOUTUBE_API_KEY
+  
+   - Stores the API key used to authenticate requests to the YouTube Data API v3.
+   - Required for retrieving trending video data and related metadata.
+  
+  DATABASE_URL
+  
+   - Defines the connection string for the local PostgreSQL database.
+   - The format is:
+     ```python
+     postgresql://<username>:<password>@localhost:<port>/<dbname>
+     ```
+   - This allows SQLAlchemy to connect to the database and retrieve/store data.
+  
+  - REGION_CODE
+  
+   - Specifies the target region for data collection (in this case, PH for the Philippines).
+   - Ensures that API queries are region-specific, returning localized trends.
+   - This makes changing the region much easier — users only need to update the REGION_CODE value in the .env file (e.g., US, JP, IN), instead of modifying the source code.
 
-Note on keeping credentials secure (gitignore).
+</br>
+</br>
 
 ## How to Run
 
