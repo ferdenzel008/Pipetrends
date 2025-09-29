@@ -517,9 +517,21 @@ Word Cloud                 |  Content Gaps             | Trend Alignment
 
 ## How to Run
 
-Quick start command to run ETL.
-
-Optional: scheduling (e.g., cron job, Airflow, Mage, etc. if you extend it).
+ To execute the ETL (Extract, Transform, Load) pipeline of this project, simply run the shell script:
+  ```bash
+  bash run_etl.sh
+  ```
+ 
+ This script will automatically run the entire project pipeline from data extraction to loading into the database, except for the visualization part which must be generated separately through the dashboard.ipynb notebook.
+ 
+ - Optional Scheduling the Script
+ 
+   To automate daily runs, you can set up a scheduling tool of your choice. For example:
+   
+   On Linux or macOS you can use cron jobs
+   On Windows you can use Task Scheduler (this project uses Task Scheduler to run run_etl.sh once per day)
+   
+   This ensures that data is refreshed regularly without requiring manual execution.
 
 ## Visualization Layer
 
