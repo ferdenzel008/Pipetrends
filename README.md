@@ -1,4 +1,4 @@
-[![Pipetrends Logo](pipetrends.png)](https://github.com/yourusername/pipetrends/images/pipetrends.png)
+[![Pipetrends Logo](pipetrends.png)](https://github.com/ferdenzel008/Pipetrends/blob/main/images/Pipetrends.png)
 
 
 
