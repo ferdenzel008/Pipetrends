@@ -571,24 +571,27 @@ Word Cloud                 |  Content Gaps             | Trend Alignment
 
 ## Limitations and Future Improvements
 
-While the project demonstrates the workflow from data extraction to visualization, there are several limitations and opportunities for future improvement:
+**Limitations**
 
-1. **YouTube Data API Quotas**
-   The project relies on the YouTube Data API v3, which has daily quota limits. This may restrict the volume of data that can be retrieved in a single day. For more details, see [YouTube Data API Quotas](https://developers.google.com/youtube/v3/guides/quota_and_compliance_audits).
+* **YouTube Data API Quotas**
+  The project depends on the YouTube Data API v3, which enforces daily quota limits. These quotas may restrict the number of requests that can be made in a single day. Users should be aware of this limitation when running the ETL pipeline. Although videos.list method cost 1 unit per call, it is still advisable to watchout specially in development phase. For more details, see [YouTube Data API Quotas](https://developers.google.com/youtube/v3/guides/quota_and_compliance_audits).
 
-2. **Dashboard Enhancements**
+**Future Improvements**
+
+1. **Dashboard Enhancements**
    The current visualization is implemented in Jupyter Notebook. A more interactive and user-friendly dashboard could be developed using tools such as **Streamlit**, **Dash**, or **Power BI** to provide better accessibility and presentation.
 
-3. **Cloud Deployment**
+2. **Cloud Deployment**
    Running the project locally limits scalability. Migrating to a cloud environment (e.g., AWS, GCP, or Azure) would allow automated scheduling, better resource management, and easier collaboration.
 
-4. **Database Backup**
+3. **Database Backup**
    At present, database backup may need to be done manually. Future improvements could include automated database backup strategies (e.g., scheduled dumps, cloud-based replication, or containerized backup solutions).
 
-5. **Email Notifications for Log Failures**
+4. **Email Notifications for Log Failures**
    Currently, failures or errors must be manually checked through logs. A future enhancement would be to implement an email notification system that alerts the user when the ETL pipeline encounters issues.
 
 These improvements would make the project more robust, scalable, and user-friendly for long-term use.
+
 
 
 ## Contributing
