@@ -494,23 +494,23 @@ Word Cloud                 |  Content Gaps             | Trend Alignment
  
   - YOUTUBE_API_KEY
   
-   - Stores the API key used to authenticate requests to the YouTube Data API v3.
-   - Required for retrieving trending video data and related metadata.
+    - Stores the API key used to authenticate requests to the YouTube Data API v3.
+    - Required for retrieving trending video data and related metadata.
   
-  DATABASE_URL
+  - DATABASE_URL
   
-   - Defines the connection string for the local PostgreSQL database.
-   - The format is:
-     ```python
-     postgresql://<username>:<password>@localhost:<port>/<dbname>
-     ```
-   - This allows SQLAlchemy to connect to the database and retrieve/store data.
+    - Defines the connection string for the local PostgreSQL database.
+    - The format is:
+      ```python
+      postgresql://<username>:<password>@localhost:<port>/<dbname>
+      ```
+    - This allows SQLAlchemy to connect to the database and retrieve/store data.
   
   - REGION_CODE
   
-   - Specifies the target region for data collection (in this case, PH for the Philippines).
-   - Ensures that API queries are region-specific, returning localized trends.
-   - This makes changing the region much easier — users only need to update the REGION_CODE value in the .env file (e.g., US, JP, IN), instead of modifying the source code.
+    - Specifies the target region for data collection (in this case, PH for the Philippines).
+    - Ensures that API queries are region-specific, returning localized trends.
+    - This makes changing the region much easier — users only need to update the REGION_CODE value in the .env file (e.g., US, JP, IN), instead of modifying the source code.
 
 </br>
 </br>
