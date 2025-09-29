@@ -457,6 +457,25 @@ By consolidating YouTube trends and Google search insights into a single storage
 </br>
 
 ### Visualization
+Word Cloud                 |  Content Gaps             | Trend Alignment
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://...Dark.png)  |  ![](https://...Ocean.png)
+
+The visualizations highlight insights from YouTube and Google Trends data.
+
+Word Cloud (YouTube Trending Keywords)
+This chart shows the most frequent keywords from today’s trending YouTube content. Larger words like “music” and “trailer” indicate higher frequency and stronger influence in current trends.
+
+Content Gaps (Google Trends vs. YouTube Trending)
+The horizontal bar chart identifies the top 10 trending search queries from Google Trends that are not reflected in YouTube trending content. This reveals opportunities for content creators to address gaps such as “benny blanco” or “al horford.”
+
+Trend Alignment (YouTube vs. Google Trends)
+The bubble chart compares the volume of keywords between YouTube Trending and Google Trends. The large bubble for YouTube Trending illustrates its higher keyword count, while the smaller Google Trends bubble shows fewer overlapping topics, emphasizing misalignment between the two platforms.
+
+These outputs were produced using Python libraries such as pandas for data handling and matplotlib for visualization. Data was retrieved from the local database with SQLAlchemy, ensuring a smooth connection between the database and Python environment.
+
+</br>
+</br>
 
 ## Configuration
 
