@@ -561,8 +561,8 @@ Word Cloud                 |  Content Gaps             | Trend Alignment
  
    To automate daily runs, you can set up a scheduling tool of your choice. For example:
    
-   On Linux or macOS you can use cron jobs
-   On Windows you can use Task Scheduler (this project uses Task Scheduler to run run_etl.sh once per day)
+   - On Linux or macOS you can use cron jobs
+   - On Windows you can use Task Scheduler (this project uses Task Scheduler to run run_etl.sh once per day)
    
    This ensures that data is refreshed regularly without requiring manual execution.
 
