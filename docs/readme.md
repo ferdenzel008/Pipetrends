@@ -417,7 +417,7 @@ By consolidating YouTube trends and Google search insights into a single storage
     logging.info("Tables created/verified.")
     ```
      - get_engine(): Creates a SQLAlchemy engine that can be reused throughout the project.
-     - init_db(): Reads models.sql and executes it, ensuring all required tables exist before loading data.
+     - create_tables(): Reads models.sql and executes it, ensuring all required tables exist before loading data.
 
     ***
    
