@@ -516,11 +516,42 @@ Word Cloud                 |  Content Gaps             | Trend Alignment
 </br>
 
 ## How to Run
+ 
+ 1. Clone the repository
+    ```python
+    git clone https://github.com/ferdenzel008/Pipetrends.git
+    cd Pipetrends
+    ```
+ 2. Create a virtual environment
+    ```python
+    python3 -m venv venv 
+    source venv/bin/activate   # Use for Linux/macOS
+    venv\Scripts\activate      # Use for Windows
+    ```
+ 3. Create .env file (use [sample.env.txt file](https://github.com/ferdenzel008/Pipetrends/blob/main/sample.env.txt) as guide)
+ 4. Download and install PostgreSQL from the official website:
+    https://www.postgresql.org/download/
 
- To execute the ETL (Extract, Transform, Load) pipeline of this project, simply run the shell script:
-  ```bash
-  bash run_etl.sh
-  ```
+ 5. Use the Default Superuser
+   PostgreSQL comes with a default superuser account called postgres. You can use this account directly instead of creating a new user. During installation, you are asked to set a password for this account.
+
+ 6. Create a Database in pgAdmin
+
+    1. Open pgAdmin and connect to your local PostgreSQL server using the postgres superuser account.
+    2. In the left-hand tree, expand Databases, right-click, and select Create > Database.
+    3. Enter a name for your new database (for example, pipetrendsdb).
+    4. In the Owner dropdown, leave it as postgres since you are using the superuser account.
+    5. Save to create the database.
+
+ 7. Update the .env File
+    Use the postgres superuser credentials in your .env file under DATABASE_URL. The format is:
+   
+    postgresql://postgres:<your_password>@localhost:<port>/pipetrendsdb
+
+ 8. Execute the [run_etl.sh script](https://github.com/ferdenzel008/Pipetrends/blob/main/scripts/run_etl.sh) 
+    ```bash
+    bash run_etl.sh
+    ```
  
  This script will automatically run the entire project pipeline from data extraction to loading into the database, except for the visualization part which must be generated separately through the dashboard.ipynb notebook.
  
