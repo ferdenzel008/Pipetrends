@@ -543,12 +543,14 @@ Word Cloud                 |  Content Gaps             | Trend Alignment
     4. In the Owner dropdown, leave it as postgres since you are using the superuser account.
     5. Save to create the database.
 
- 7. Update the .env File
+ 7. Update the .env file
+
     Use the postgres superuser credentials in your .env file under DATABASE_URL. The format is:
    
     postgresql://postgres:<your_password>@localhost:<port>/pipetrendsdb
+     - port is usually set to 5432
 
- 8. Execute the [run_etl.sh script](https://github.com/ferdenzel008/Pipetrends/blob/main/scripts/run_etl.sh) 
+ 9. Execute the [run_etl.sh script](https://github.com/ferdenzel008/Pipetrends/blob/main/scripts/run_etl.sh) 
     ```bash
     bash run_etl.sh
     ```
