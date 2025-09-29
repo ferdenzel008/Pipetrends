@@ -555,7 +555,7 @@ Word Cloud                 |  Content Gaps             | Trend Alignment
     bash run_etl.sh
     ```
  
- This script will automatically run the entire project pipeline from data extraction to loading into the database, except for the visualization part which must be generated separately through the dashboard.ipynb notebook.
+   This script will automatically run the entire project pipeline from data extraction to loading into the database, except for the visualization part which must be generated separately through the dashboard.ipynb notebook.
  
  - Optional Scheduling the Script
  
