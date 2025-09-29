@@ -57,12 +57,12 @@ Pipetrends provides you with a tool that can extract most popular youtube videos
     postgresql://postgres:<your_password>@localhost:<port>/pipetrendsdb
      - port is usually set to 5432
 
- 9. Execute the [run_etl.sh script](https://github.com/ferdenzel008/Pipetrends/blob/main/scripts/run_etl.sh) 
+ 8. Execute the [run_etl.sh script](https://github.com/ferdenzel008/Pipetrends/blob/main/scripts/run_etl.sh) 
     ```bash
     bash run_etl.sh
     ```
  
-  This script will automatically run the entire project pipeline from data extraction to loading into the database, except for the visualization part which must be generated separately through the dashboard.ipynb notebook.
+    This script will automatically run the entire project pipeline from data extraction to loading into the database, except for the visualization part which must be generated separately through the dashboard.ipynb notebook.
  
  - Optional Scheduling the Script
  
