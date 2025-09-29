@@ -472,7 +472,18 @@ Word Cloud                 |  Content Gaps             | Trend Alignment
  - Trend Alignment (YouTube vs. Google Trends)
  The bubble chart compares the volume of keywords between YouTube Trending and Google Trends. The large bubble for YouTube Trending illustrates its higher keyword count, while the smaller Google Trends bubble shows fewer overlapping topics, emphasizing misalignment between the two platforms.
  
- These outputs were produced using Python libraries such as pandas for data handling and matplotlib for visualization. Data was retrieved from the PostgreSQL database with SQLAlchemy.
+ These outputs are automatically saved in the notebooks/outputs/ folder. They will only appear after running all the cells in the dashboard.ipynb file.
+
+ - About dashboard.ipynb
+ 
+ The dashboard.ipynb notebook acts as the central workflow for this project. It:
+ 
+ - Connects to the local database using SQLAlchemy to retrieve trend data,
+ - Processes and cleans the data with pandas,
+ - Generates visualizations with matplotlib (and supporting libraries),
+ - Exports the resulting charts and word clouds into the notebooks/outputs/ folder for reporting and presentation.
+ 
+ This notebook serves as both the analysis pipeline and the dashboard generator for the project.
 
 </br>
 </br>
