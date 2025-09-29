@@ -569,17 +569,27 @@ Word Cloud                 |  Content Gaps             | Trend Alignment
 </br>
 </br>
 
-## Limitations & Future Improvements
+## Limitations and Future Improvements
 
-Current limitations (e.g., API quotas, only PH region).
+While the project demonstrates the workflow from data extraction to visualization, there are several limitations and opportunities for future improvement:
 
-Possible extensions:
+1. **YouTube Data API Quotas**
+   The project relies on the YouTube Data API v3, which has daily quota limits. This may restrict the volume of data that can be retrieved in a single day. For more details, see [YouTube Data API Quotas](https://developers.google.com/youtube/v3/guides/quota_and_compliance_audits).
 
-Add more countries.
+2. **Dashboard Enhancements**
+   The current visualization is implemented in Jupyter Notebook. A more interactive and user-friendly dashboard could be developed using tools such as **Streamlit**, **Dash**, or **Power BI** to provide better accessibility and presentation.
 
-Automate scheduling.
+3. **Cloud Deployment**
+   Running the project locally limits scalability. Migrating to a cloud environment (e.g., AWS, GCP, or Azure) would allow automated scheduling, better resource management, and easier collaboration.
 
-Use cloud storage (BigQuery, S3).
+4. **Database Backup**
+   At present, database backup may need to be done manually. Future improvements could include automated database backup strategies (e.g., scheduled dumps, cloud-based replication, or containerized backup solutions).
+
+5. **Email Notifications for Log Failures**
+   Currently, failures or errors must be manually checked through logs. A future enhancement would be to implement an email notification system that alerts the user when the ETL pipeline encounters issues.
+
+These improvements would make the project more robust, scalable, and user-friendly for long-term use.
+
 
 ## Contributing
 
