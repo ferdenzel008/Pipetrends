@@ -1,0 +1,389 @@
+2025-09-18 04:18:37 [INFO Tables created/verified.]
+2025-09-18 04:18:37 [INFO file_cache is only supported with oauth2client<4.0.0]
+2025-09-18 04:18:38 [INFO Upserted 25 videos at 2025-09-17T20:18:38.032599+00:00]
+2025-09-18 04:18:38 [INFO ====== WebDriver manager ======]
+2025-09-18 04:18:39 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-18 04:18:40 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-18 04:18:40 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-18 04:18:41 [INFO WebDriver version 140.0.7339.82 selected]
+2025-09-18 04:18:41 [INFO Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.82/win32/chromedriver-win32.zip]
+2025-09-18 04:18:41 [INFO About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.82/win32/chromedriver-win32.zip]
+2025-09-18 04:18:41 [INFO Driver downloading response is 200]
+2025-09-18 04:18:43 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-18 04:18:43 [INFO Driver has been saved in cache [C:\Users\Ferde\.wdm\drivers\chromedriver\win64\140.0.7339.82]]
+2025-09-18 04:19:03 [INFO Upserted 25 trending queries at 2025-09-17T20:19:03.322157+00:00]
+2025-09-18 04:19:03 [INFO ETL run complete]
+--------------------------------------------------------------------------------
+
+2025-09-18 22:00:49 [INFO Tables created/verified.]
+2025-09-18 22:00:49 [INFO file_cache is only supported with oauth2client<4.0.0]
+2025-09-18 22:00:53 [INFO Upserted 24 videos at 2025-09-18T14:00:53.524957+00:00]
+2025-09-18 22:00:53 [INFO ====== WebDriver manager ======]
+2025-09-18 22:01:03 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-18 22:01:05 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-18 22:01:08 [INFO There is no [win64] chromedriver "140.0.7339.185" for browser google-chrome "140.0.7339" in cache]
+2025-09-18 22:01:08 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-18 22:01:13 [INFO WebDriver version 140.0.7339.185 selected]
+2025-09-18 22:01:13 [INFO Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.185/win32/chromedriver-win32.zip]
+2025-09-18 22:01:13 [INFO About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.185/win32/chromedriver-win32.zip]
+2025-09-18 22:01:14 [INFO Driver downloading response is 200]
+2025-09-18 22:01:17 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-18 22:01:18 [INFO Driver has been saved in cache [C:\Users\Ferde\.wdm\drivers\chromedriver\win64\140.0.7339.185]]
+2025-09-18 22:01:55 [INFO Upserted 25 trending queries at 2025-09-18T14:01:55.040294+00:00]
+2025-09-18 22:01:55 [INFO ETL run complete]
+--------------------------------------------------------------------------------
+
+2025-09-20 03:32:24 [INFO Tables created/verified.]
+2025-09-20 03:32:24 [INFO file_cache is only supported with oauth2client<4.0.0]
+2025-09-20 03:32:24 [INFO Upserted 25 videos at 2025-09-19T19:32:24.903761+00:00]
+2025-09-20 03:32:24 [INFO ====== WebDriver manager ======]
+2025-09-20 03:32:25 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-20 03:33:50 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-20 03:35:15 [INFO Driver [C:\Users\Ferde\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache]
+2025-09-20 03:35:29 [INFO Upserted 25 trending queries at 2025-09-19T19:35:29.657287+00:00]
+2025-09-20 03:35:29 [INFO ETL run complete]
+--------------------------------------------------------------------------------
+
+2025-09-20 22:00:08 [INFO Tables created/verified.]
+2025-09-20 22:00:08 [INFO file_cache is only supported with oauth2client<4.0.0]
+2025-09-20 22:00:09 [INFO Upserted 25 videos at 2025-09-20T14:00:09.058676+00:00]
+2025-09-20 22:00:09 [INFO ====== WebDriver manager ======]
+2025-09-20 22:00:11 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-20 22:01:36 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-20 22:03:01 [INFO Driver [C:\Users\Ferde\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache]
+2025-09-20 22:03:21 [INFO Upserted 25 trending queries at 2025-09-20T14:03:21.911791+00:00]
+2025-09-20 22:03:21 [INFO ETL run complete]
+--------------------------------------------------------------------------------
+
+2025-09-21 22:00:05 [INFO Tables created/verified.]
+2025-09-21 22:00:05 [INFO file_cache is only supported with oauth2client<4.0.0]
+2025-09-21 22:00:06 [INFO Upserted 25 videos at 2025-09-21T14:00:05.967648+00:00]
+2025-09-21 22:00:06 [INFO ====== WebDriver manager ======]
+2025-09-21 22:00:07 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-21 22:01:31 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-21 22:02:56 [INFO Driver [C:\Users\Ferde\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache]
+2025-09-21 22:03:12 [INFO Upserted 25 trending queries at 2025-09-21T14:03:12.806219+00:00]
+2025-09-21 22:03:12 [INFO ETL run complete]
+--------------------------------------------------------------------------------
+
+2025-09-22 22:00:08 [INFO Tables created/verified.]
+2025-09-22 22:00:08 [INFO Started ETL job 'full_etl_run' with run_id=37]
+2025-09-22 22:00:08 [INFO Started ETL job 'youtube_etl' with run_id=38]
+2025-09-22 22:00:08 [INFO Started ETL job 'fetch_most_popular_videos' with run_id=39]
+2025-09-22 22:00:08 [INFO file_cache is only supported with oauth2client<4.0.0]
+2025-09-22 22:00:09 [INFO Updated ETL job 'fetch_most_popular_videos' run_id=39 to status=success]
+2025-09-22 22:00:09 [INFO Started ETL job 'parse_and_upsert' with run_id=40]
+2025-09-22 22:00:09 [INFO Updated ETL job 'parse_and_upsert' run_id=40 to status=success]
+2025-09-22 22:00:09 [INFO Upserted 25 videos at 2025-09-22T14:00:09.007044+00:00]
+2025-09-22 22:00:09 [INFO Updated ETL job 'youtube_etl' run_id=38 to status=success]
+2025-09-22 22:00:09 [INFO Started ETL job 'gtrends_etl' with run_id=41]
+2025-09-22 22:00:09 [INFO Started ETL job 'get_trending_searches_ph' with run_id=42]
+2025-09-22 22:00:09 [INFO ====== WebDriver manager ======]
+2025-09-22 22:00:11 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-22 22:01:35 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-22 22:03:00 [INFO Driver [C:\Users\Ferde\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache]
+2025-09-22 22:03:19 [INFO Updated ETL job 'get_trending_searches_ph' run_id=42 to status=success]
+2025-09-22 22:03:19 [INFO Started ETL job 'parse_and_upsert_trends' with run_id=43]
+2025-09-22 22:03:19 [INFO Updated ETL job 'parse_and_upsert_trends' run_id=43 to status=success]
+2025-09-22 22:03:19 [INFO Upserted 25 trending queries at 2025-09-22T14:03:19.713562+00:00]
+2025-09-22 22:03:19 [INFO Updated ETL job 'gtrends_etl' run_id=41 to status=success]
+2025-09-22 22:03:19 [INFO Updated ETL job 'full_etl_run' run_id=37 to status=success]
+2025-09-22 22:03:19 [INFO ETL run complete]
+--------------------------------------------------------------------------------
+
+2025-09-23 22:00:07 [INFO Tables created/verified.]
+2025-09-23 22:00:07 [INFO Started ETL job 'full_etl_run' with run_id=44]
+2025-09-23 22:00:07 [INFO Started ETL job 'youtube_etl' with run_id=45]
+2025-09-23 22:00:07 [INFO Started ETL job 'fetch_most_popular_videos' with run_id=46]
+2025-09-23 22:00:07 [INFO file_cache is only supported with oauth2client<4.0.0]
+2025-09-23 22:00:07 [INFO Updated ETL job 'fetch_most_popular_videos' run_id=46 to status=success]
+2025-09-23 22:00:07 [INFO Started ETL job 'parse_and_upsert' with run_id=47]
+2025-09-23 22:00:07 [INFO Updated ETL job 'parse_and_upsert' run_id=47 to status=success]
+2025-09-23 22:00:07 [INFO Upserted 25 videos at 2025-09-23T14:00:07.766795+00:00]
+2025-09-23 22:00:07 [INFO Updated ETL job 'youtube_etl' run_id=45 to status=success]
+2025-09-23 22:00:07 [INFO Started ETL job 'gtrends_etl' with run_id=48]
+2025-09-23 22:00:07 [INFO Started ETL job 'get_trending_searches_ph' with run_id=49]
+2025-09-23 22:00:07 [INFO ====== WebDriver manager ======]
+2025-09-23 22:00:09 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-23 22:01:55 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-23 22:03:40 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-23 22:07:12 [INFO WebDriver version 140.0.7339.185 selected]
+2025-09-23 22:07:12 [INFO Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.185/win32/chromedriver-win32.zip]
+2025-09-23 22:07:12 [INFO About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.185/win32/chromedriver-win32.zip]
+2025-09-23 22:07:13 [INFO Driver downloading response is 200]
+2025-09-23 22:07:16 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-23 22:09:02 [INFO Driver has been saved in cache [C:\Users\Ferde\.wdm\drivers\chromedriver\win64\140.0.7339.185]]
+2025-09-23 22:09:20 [INFO Updated ETL job 'get_trending_searches_ph' run_id=49 to status=success]
+2025-09-23 22:09:20 [INFO Started ETL job 'parse_and_upsert_trends' with run_id=50]
+2025-09-23 22:09:20 [INFO Updated ETL job 'parse_and_upsert_trends' run_id=50 to status=success]
+2025-09-23 22:09:20 [INFO Upserted 25 trending queries at 2025-09-23T14:09:20.324745+00:00]
+2025-09-23 22:09:20 [INFO Updated ETL job 'gtrends_etl' run_id=48 to status=success]
+2025-09-23 22:09:20 [INFO Updated ETL job 'full_etl_run' run_id=44 to status=success]
+2025-09-23 22:09:20 [INFO ETL run complete]
+--------------------------------------------------------------------------------
+
+2025-09-24 22:00:06 [INFO Tables created/verified.]
+2025-09-24 22:00:06 [INFO Started ETL job 'full_etl_run' with run_id=51]
+2025-09-24 22:00:06 [INFO Started ETL job 'youtube_etl' with run_id=52]
+2025-09-24 22:00:06 [INFO Started ETL job 'fetch_most_popular_videos' with run_id=53]
+2025-09-24 22:00:06 [INFO file_cache is only supported with oauth2client<4.0.0]
+2025-09-24 22:00:07 [INFO Updated ETL job 'fetch_most_popular_videos' run_id=53 to status=success]
+2025-09-24 22:00:07 [INFO Started ETL job 'parse_and_upsert' with run_id=54]
+2025-09-24 22:00:07 [INFO Updated ETL job 'parse_and_upsert' run_id=54 to status=success]
+2025-09-24 22:00:07 [INFO Upserted 25 videos at 2025-09-24T14:00:07.390220+00:00]
+2025-09-24 22:00:07 [INFO Updated ETL job 'youtube_etl' run_id=52 to status=success]
+2025-09-24 22:00:07 [INFO Started ETL job 'gtrends_etl' with run_id=55]
+2025-09-24 22:00:07 [INFO Started ETL job 'get_trending_searches_ph' with run_id=56]
+2025-09-24 22:00:07 [INFO ====== WebDriver manager ======]
+2025-09-24 22:00:09 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-24 22:01:33 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-24 22:02:58 [INFO There is no [win64] chromedriver "140.0.7339.207" for browser google-chrome "140.0.7339" in cache]
+2025-09-24 22:02:58 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-24 22:05:47 [INFO WebDriver version 140.0.7339.207 selected]
+2025-09-24 22:05:47 [INFO Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/win32/chromedriver-win32.zip]
+2025-09-24 22:05:47 [INFO About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/win32/chromedriver-win32.zip]
+2025-09-24 22:05:48 [INFO Driver downloading response is 200]
+2025-09-24 22:05:49 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-24 22:07:14 [INFO Driver has been saved in cache [C:\Users\Ferde\.wdm\drivers\chromedriver\win64\140.0.7339.207]]
+2025-09-24 22:07:31 [INFO Updated ETL job 'get_trending_searches_ph' run_id=56 to status=success]
+2025-09-24 22:07:31 [INFO Started ETL job 'parse_and_upsert_trends' with run_id=57]
+2025-09-24 22:07:31 [INFO Updated ETL job 'parse_and_upsert_trends' run_id=57 to status=success]
+2025-09-24 22:07:31 [INFO Upserted 25 trending queries at 2025-09-24T14:07:31.947451+00:00]
+2025-09-24 22:07:31 [INFO Updated ETL job 'gtrends_etl' run_id=55 to status=success]
+2025-09-24 22:07:31 [INFO Updated ETL job 'full_etl_run' run_id=51 to status=success]
+2025-09-24 22:07:31 [INFO ETL run complete]
+--------------------------------------------------------------------------------
+
+2025-09-25 22:00:07 [INFO Tables created/verified.]
+2025-09-25 22:00:07 [INFO Started ETL job 'full_etl_run' with run_id=58]
+2025-09-25 22:00:07 [INFO Started ETL job 'youtube_etl' with run_id=59]
+2025-09-25 22:00:07 [INFO Started ETL job 'fetch_most_popular_videos' with run_id=60]
+2025-09-25 22:00:07 [INFO file_cache is only supported with oauth2client<4.0.0]
+2025-09-25 22:00:08 [INFO Updated ETL job 'fetch_most_popular_videos' run_id=60 to status=success]
+2025-09-25 22:00:08 [INFO Started ETL job 'parse_and_upsert' with run_id=61]
+2025-09-25 22:00:08 [INFO Updated ETL job 'parse_and_upsert' run_id=61 to status=success]
+2025-09-25 22:00:08 [INFO Upserted 25 videos at 2025-09-25T14:00:08.095896+00:00]
+2025-09-25 22:00:08 [INFO Updated ETL job 'youtube_etl' run_id=59 to status=success]
+2025-09-25 22:00:08 [INFO Started ETL job 'gtrends_etl' with run_id=62]
+2025-09-25 22:00:08 [INFO Started ETL job 'get_trending_searches_ph' with run_id=63]
+2025-09-25 22:00:08 [INFO ====== WebDriver manager ======]
+2025-09-25 22:00:09 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-25 22:01:55 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-25 22:03:41 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-25 22:07:15 [INFO WebDriver version 140.0.7339.207 selected]
+2025-09-25 22:07:15 [INFO Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/win32/chromedriver-win32.zip]
+2025-09-25 22:07:15 [INFO About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/win32/chromedriver-win32.zip]
+2025-09-25 22:07:16 [INFO Driver downloading response is 200]
+2025-09-25 22:07:44 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-25 22:09:29 [INFO Driver has been saved in cache [C:\Users\Ferde\.wdm\drivers\chromedriver\win64\140.0.7339.207]]
+2025-09-25 22:09:46 [INFO Updated ETL job 'get_trending_searches_ph' run_id=63 to status=success]
+2025-09-25 22:09:46 [INFO Started ETL job 'parse_and_upsert_trends' with run_id=64]
+2025-09-25 22:09:46 [INFO Updated ETL job 'parse_and_upsert_trends' run_id=64 to status=success]
+2025-09-25 22:09:46 [INFO Upserted 25 trending queries at 2025-09-25T14:09:46.392219+00:00]
+2025-09-25 22:09:46 [INFO Updated ETL job 'gtrends_etl' run_id=62 to status=success]
+2025-09-25 22:09:46 [INFO Updated ETL job 'full_etl_run' run_id=58 to status=success]
+2025-09-25 22:09:46 [INFO ETL run complete]
+--------------------------------------------------------------------------------
+
+2025-09-26 22:00:07 [INFO Tables created/verified.]
+2025-09-26 22:00:07 [INFO Started ETL job 'full_etl_run' with run_id=65]
+2025-09-26 22:00:07 [INFO Started ETL job 'youtube_etl' with run_id=66]
+2025-09-26 22:00:07 [INFO Started ETL job 'fetch_most_popular_videos' with run_id=67]
+2025-09-26 22:00:07 [INFO file_cache is only supported with oauth2client<4.0.0]
+2025-09-26 22:00:08 [INFO Updated ETL job 'fetch_most_popular_videos' run_id=67 to status=success]
+2025-09-26 22:00:08 [INFO Started ETL job 'parse_and_upsert' with run_id=68]
+2025-09-26 22:00:08 [INFO Updated ETL job 'parse_and_upsert' run_id=68 to status=success]
+2025-09-26 22:00:08 [INFO Upserted 25 videos at 2025-09-26T14:00:08.700087+00:00]
+2025-09-26 22:00:08 [INFO Updated ETL job 'youtube_etl' run_id=66 to status=success]
+2025-09-26 22:00:08 [INFO Started ETL job 'gtrends_etl' with run_id=69]
+2025-09-26 22:00:08 [INFO Started ETL job 'get_trending_searches_ph' with run_id=70]
+2025-09-26 22:00:08 [INFO ====== WebDriver manager ======]
+2025-09-26 22:00:10 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-26 22:01:35 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-26 22:03:00 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-26 22:05:49 [INFO WebDriver version 140.0.7339.207 selected]
+2025-09-26 22:05:49 [INFO Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/win32/chromedriver-win32.zip]
+2025-09-26 22:05:49 [INFO About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/win32/chromedriver-win32.zip]
+2025-09-26 22:05:50 [INFO Driver downloading response is 200]
+2025-09-26 22:05:51 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-26 22:07:15 [INFO Driver has been saved in cache [C:\Users\Ferde\.wdm\drivers\chromedriver\win64\140.0.7339.207]]
+2025-09-26 22:07:33 [INFO Updated ETL job 'get_trending_searches_ph' run_id=70 to status=success]
+2025-09-26 22:07:33 [INFO Started ETL job 'parse_and_upsert_trends' with run_id=71]
+2025-09-26 22:07:33 [WARNING Skipping invalid search_volume: 1M]
+2025-09-26 22:07:33 [INFO Updated ETL job 'parse_and_upsert_trends' run_id=71 to status=success]
+2025-09-26 22:07:33 [INFO Upserted 25 trending queries at 2025-09-26T14:07:33.802302+00:00]
+2025-09-26 22:07:33 [INFO Updated ETL job 'gtrends_etl' run_id=69 to status=success]
+2025-09-26 22:07:33 [INFO Updated ETL job 'full_etl_run' run_id=65 to status=success]
+2025-09-26 22:07:33 [INFO ETL run complete]
+--------------------------------------------------------------------------------
+
+2025-09-27 22:00:08 [INFO Tables created/verified.]
+2025-09-27 22:00:08 [INFO Started ETL job 'full_etl_run' with run_id=72]
+2025-09-27 22:00:08 [INFO Started ETL job 'youtube_etl' with run_id=73]
+2025-09-27 22:00:08 [INFO Started ETL job 'fetch_most_popular_videos' with run_id=74]
+2025-09-27 22:00:08 [INFO file_cache is only supported with oauth2client<4.0.0]
+2025-09-27 22:00:09 [INFO Updated ETL job 'fetch_most_popular_videos' run_id=74 to status=success]
+2025-09-27 22:00:09 [INFO Started ETL job 'parse_and_upsert' with run_id=75]
+2025-09-27 22:00:09 [INFO Updated ETL job 'parse_and_upsert' run_id=75 to status=success]
+2025-09-27 22:00:09 [INFO Upserted 25 videos at 2025-09-27T14:00:09.381500+00:00]
+2025-09-27 22:00:09 [INFO Updated ETL job 'youtube_etl' run_id=73 to status=success]
+2025-09-27 22:00:09 [INFO Started ETL job 'gtrends_etl' with run_id=76]
+2025-09-27 22:00:09 [INFO Started ETL job 'get_trending_searches_ph' with run_id=77]
+2025-09-27 22:00:09 [INFO ====== WebDriver manager ======]
+2025-09-27 22:00:11 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-27 22:01:57 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-27 22:03:43 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-27 22:07:15 [INFO WebDriver version 140.0.7339.207 selected]
+2025-09-27 22:07:15 [INFO Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/win32/chromedriver-win32.zip]
+2025-09-27 22:07:15 [INFO About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.207/win32/chromedriver-win32.zip]
+2025-09-27 22:07:15 [INFO Driver downloading response is 200]
+2025-09-27 22:07:16 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-27 22:09:01 [INFO Driver has been saved in cache [C:\Users\Ferde\.wdm\drivers\chromedriver\win64\140.0.7339.207]]
+2025-09-27 22:09:20 [INFO Updated ETL job 'get_trending_searches_ph' run_id=77 to status=success]
+2025-09-27 22:09:20 [INFO Started ETL job 'parse_and_upsert_trends' with run_id=78]
+2025-09-27 22:09:20 [INFO Updated ETL job 'parse_and_upsert_trends' run_id=78 to status=success]
+2025-09-27 22:09:20 [INFO Upserted 25 trending queries at 2025-09-27T14:09:20.788115+00:00]
+2025-09-27 22:09:20 [INFO Updated ETL job 'gtrends_etl' run_id=76 to status=success]
+2025-09-27 22:09:20 [INFO Updated ETL job 'full_etl_run' run_id=72 to status=success]
+2025-09-27 22:09:20 [INFO ETL run complete]
+--------------------------------------------------------------------------------
+
+2025-09-28 22:00:08 [INFO Tables created/verified.]
+2025-09-28 22:00:08 [INFO Started ETL job 'full_etl_run' with run_id=79]
+2025-09-28 22:00:08 [INFO Started ETL job 'youtube_etl' with run_id=80]
+2025-09-28 22:00:08 [INFO Started ETL job 'fetch_most_popular_videos' with run_id=81]
+2025-09-28 22:00:08 [INFO file_cache is only supported with oauth2client<4.0.0]
+2025-09-28 22:00:09 [INFO Updated ETL job 'fetch_most_popular_videos' run_id=81 to status=success]
+2025-09-28 22:00:09 [INFO Started ETL job 'parse_and_upsert' with run_id=82]
+2025-09-28 22:00:09 [INFO Updated ETL job 'parse_and_upsert' run_id=82 to status=success]
+2025-09-28 22:00:09 [INFO Upserted 25 videos at 2025-09-28T14:00:09.413971+00:00]
+2025-09-28 22:00:09 [INFO Updated ETL job 'youtube_etl' run_id=80 to status=success]
+2025-09-28 22:00:09 [INFO Started ETL job 'gtrends_etl' with run_id=83]
+2025-09-28 22:00:09 [INFO Started ETL job 'get_trending_searches_ph' with run_id=84]
+2025-09-28 22:00:09 [INFO ====== WebDriver manager ======]
+2025-09-28 22:00:11 [INFO Get LATEST chromedriver version for google-chrome]
+2025-09-28 22:01:36 [ERROR Failed to fetch Google Trends]
+Traceback (most recent call last):
+  File "D:\yt_beauty_trends\venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\yt_beauty_trends\venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\yt_beauty_trends\venv\Lib\site-packages\urllib3\connection.py", line 790, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "D:\yt_beauty_trends\venv\Lib\site-packages\urllib3\connection.py", line 969, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "D:\yt_beauty_trends\venv\Lib\site-packages\urllib3\util\ssl_.py", line 480, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "D:\yt_beauty_trends\venv\Lib\site-packages\urllib3\util\ssl_.py", line 524, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Python\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sock=sock,
+        ^^^^^^^^^^
+    ...<5 lines>...
+        session=session
+        ^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Program Files\Python\Lib\ssl.py", line 1076, in _create
+    self.do_handshake()
+    ~~~~~~~~~~~~~~~~~^^
+  File "D:\Program Files\Python\Lib\ssl.py", line 1372, in do_handshake
+    self._sslobj.do_handshake()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\yt_beauty_trends\venv\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "D:\yt_beauty_trends\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "D:\yt_beauty_trends\venv\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\yt_beauty_trends\venv\Lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "D:\yt_beauty_trends\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "D:\yt_beauty_trends\venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "D:\yt_beauty_trends\venv\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\yt_beauty_trends\venv\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='googlechromelabs.github.io', port=443): Read timed out. (read timeout=None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\yt_beauty_trends\src\gtrends_etl.py", line 25, in get_trending_searches_ph
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\yt_beauty_trends\venv\Lib\site-packages\webdriver_manager\chrome.py", line 40, in install
+    driver_path = self._get_driver_binary_path(self.driver)
+  File "D:\yt_beauty_trends\venv\Lib\site-packages\webdriver_manager\core\manager.py", line 35, in _get_driver_binary_path
+    binary_path = self._cache_manager.find_driver(driver)
+  File "D:\yt_beauty_trends\venv\Lib\site-packages\webdriver_manager\core\driver_cache.py", line 107, in find_driver
+    driver_version = self.get_cache_key_driver_version(driver)
+  File "D:\yt_beauty_trends\venv\Lib\site-packages\webdriver_manager\core\driver_cache.py", line 154, in get_cache_key_driver_version
+    return driver.get_driver_version_to_download()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\yt_beauty_trends\venv\Lib\site-packages\webdriver_manager\core\driver.py", line 48, in get_driver_version_to_download
+    return self.get_latest_release_version()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\yt_beauty_trends\venv\Lib\site-packages\webdriver_manager\drivers\chrome.py", line 59, in get_latest_release_version
+    response = self._http_client.get(url)
+  File "D:\yt_beauty_trends\venv\Lib\site-packages\webdriver_manager\core\http.py", line 32, in get
+    resp = requests.get(
+        url=url, verify=self._ssl_verify, stream=True, **kwargs)
+  File "D:\yt_beauty_trends\venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\yt_beauty_trends\venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\yt_beauty_trends\venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\yt_beauty_trends\venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\yt_beauty_trends\venv\Lib\site-packages\requests\adapters.py", line 690, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='googlechromelabs.github.io', port=443): Read timed out. (read timeout=None)
+2025-09-28 22:01:37 [INFO Updated ETL job 'get_trending_searches_ph' run_id=84 to status=failed]
+2025-09-28 22:01:37 [INFO Started ETL job 'parse_and_upsert_trends' with run_id=85]
+2025-09-28 22:01:37 [INFO Updated ETL job 'parse_and_upsert_trends' run_id=85 to status=success]
+2025-09-28 22:01:37 [INFO Upserted 0 trending queries at 2025-09-28T14:01:37.263940+00:00]
+2025-09-28 22:01:37 [INFO Updated ETL job 'gtrends_etl' run_id=83 to status=success]
+2025-09-28 22:01:37 [INFO Updated ETL job 'full_etl_run' run_id=79 to status=success]
+2025-09-28 22:01:37 [INFO ETL run complete]
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
