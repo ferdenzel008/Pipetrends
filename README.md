@@ -1,4 +1,4 @@
-[![Pipetrends Logo](https://github.com/ferdenzel008/Pipetrends/blob/main/images/Pipetrends.png)]{width=800px}(https://github.com/ferdenzel008/Pipetrends/tree/main/docs)
+[![Pipetrends Logo](https://github.com/ferdenzel008/Pipetrends/blob/main/images/Pipetrends.png){width=800px}](https://github.com/ferdenzel008/Pipetrends/tree/main/docs)
 
 
 
