@@ -476,14 +476,14 @@ Word Cloud                 |  Content Gaps             | Trend Alignment
 
  - About dashboard.ipynb
  
-  The dashboard.ipynb notebook acts as the central workflow for this project. It:
-  
-  - Connects to the local database using SQLAlchemy to retrieve trend data,
-  - Processes and cleans the data with pandas,
-  - Generates visualizations with matplotlib (and supporting libraries),
-  - Exports the resulting charts and word clouds into the notebooks/outputs/ folder for reporting and presentation.
-  
-  This notebook serves as both the analysis pipeline and the dashboard generator for the project.
+   The dashboard.ipynb notebook acts as the central workflow for this project. It:
+   
+   - Connects to the local database using SQLAlchemy to retrieve trend data,
+   - Processes and cleans the data with pandas,
+   - Generates visualizations with matplotlib (and supporting libraries),
+   - Exports the resulting charts and word clouds into the notebooks/outputs/ folder for reporting and presentation.
+   
+   This notebook serves as both the analysis pipeline and the dashboard generator for the project.
 
 </br>
 </br>
