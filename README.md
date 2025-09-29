@@ -1,6 +1,5 @@
-[<img src="https://github.com/ferdenzel008/Pipetrends/blob/main/images/Pipetrends.png" width="100"></a>](https://github.com/ferdenzel008/Pipetrends/tree/main/docs)
+[<img src="https://github.com/ferdenzel008/Pipetrends/blob/main/images/Pipetrends.png" height="200"></a>](https://github.com/ferdenzel008/Pipetrends/tree/main/docs)
 
-<img src="https://github.com/ferdenzel008/Pipetrends/blob/main/images/Pipetrends.png" width="100"></a> 
 
 
 # Pipetrends
