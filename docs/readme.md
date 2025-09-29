@@ -594,8 +594,3 @@ Use cloud storage (BigQuery, S3).
    Bovan, A. (n.d.). *Parts of speech word lists*. Ashley Bovan. Retrieved September 29, 2025, from [http://www.ashley-bovan.co.uk/words/partsofspeech.html](http://www.ashley-bovan.co.uk/words/partsofspeech.html)
    
    Google. (n.d.). *Google Trends – Philippines*. Google Trends. Retrieved September 29, 2025, from [https://trends.google.com/trending?geo=PH&hl=en-US](https://trends.google.com/trending?geo=PH&hl=en-US)
-
-
-YouTube Data API
-
-Google Trends PyTrends
