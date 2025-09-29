@@ -1,5 +1,5 @@
 <p align="center">
- <a href="https://github.com/ferdenzel008/Pipetrends/tree/main/docs"><img src="https://github.com/ferdenzel008/Pipetrends/blob/main/images/Pipetrends.png" height="400"></a>
+ <a href="https://github.com/ferdenzel008/Pipetrends/tree/main/docs"><img src="https://github.com/ferdenzel008/Pipetrends/blob/main/docs/images/Pipetrends.png" height="400"></a>
 </p>
 
 ***
@@ -15,7 +15,7 @@ Pipetrends provides you with a tool that can extract most popular youtube videos
 - Enables visualization with Jupyter notebook
 
 ## Project Architecture
-![Project Architecture Diagram](https://github.com/ferdenzel008/Pipetrends/blob/main/images/Project%20Architecture.jpg)
+![Project Architecture Diagram](https://github.com/ferdenzel008/Pipetrends/blob/main/docs/images/Project%20Architecture.jpg)
 
 ## Tech Stack
 - Youtube Data API v3
@@ -80,6 +80,6 @@ Pipetrends provides you with a tool that can extract most popular youtube videos
 
 ***
 
-<a href="https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#pipetrends"><img src="https://github.com/ferdenzel008/Pipetrends/blob/main/images/Documentation.png" height=300></a>
+<a href="https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#pipetrends"><img src="https://github.com/ferdenzel008/Pipetrends/blob/main/docs/images/Documentation.png" height=300></a>
 
 ***
