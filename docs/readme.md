@@ -555,7 +555,7 @@ Word Cloud                 |  Content Gaps             | Trend Alignment
     bash run_etl.sh
     ```
  
-   This script will automatically run the entire project pipeline from data extraction to loading into the database, except for the visualization part which must be generated separately through the dashboard.ipynb notebook.
+    This script will automatically run the entire project pipeline from data extraction to loading into the database, except for the visualization part which must be generated separately through the dashboard.ipynb notebook.
  
  - Optional Scheduling the Script
  
@@ -566,11 +566,8 @@ Word Cloud                 |  Content Gaps             | Trend Alignment
    
    This ensures that data is refreshed regularly without requiring manual execution.
 
-## Visualization Layer
-
-How to connect Power BI (or other BI tools).
-
-Example queries / charts you built (screenshots are great here).
+</br>
+</br>
 
 ## Limitations & Future Improvements
 
@@ -586,11 +583,18 @@ Use cloud storage (BigQuery, S3).
 
 ## Contributing
 
-How others can add features / issues.
+   This project was created as part of my personal portfolio to showcase my skills and workflow. For that reason, I am not accepting external contributions at this time.
+   
+   I truly appreciate your interest, and if you find this project helpful or inspiring, feel free to use it as a reference for your own work.
 
 ## References
 
-Links to APIs used:
+   Google. (n.d.). *YouTube Data API overview*. Google for Developers. Retrieved September 29, 2025, from [https://developers.google.com/youtube/v3](https://developers.google.com/youtube/v3)
+   
+   Bovan, A. (n.d.). *Parts of speech word lists*. Ashley Bovan. Retrieved September 29, 2025, from [http://www.ashley-bovan.co.uk/words/partsofspeech.html](http://www.ashley-bovan.co.uk/words/partsofspeech.html)
+   
+   Google. (n.d.). *Google Trends – Philippines*. Google Trends. Retrieved September 29, 2025, from [https://trends.google.com/trending?geo=PH&hl=en-US](https://trends.google.com/trending?geo=PH&hl=en-US)
+
 
 YouTube Data API
 
