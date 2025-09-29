@@ -78,6 +78,17 @@ Pipetrends provides you with a tool that can extract most popular youtube videos
    
    This ensures that data is refreshed regularly without requiring manual execution.
 
+## License
+
+MIT
+
+## Contributing
+
+   This project was created as part of my personal portfolio to showcase my skills and workflow. For that reason, I am not accepting external contributions at this time.
+   
+   I truly appreciate your interest, and if you find this project helpful or inspiring, feel free to use it as a reference for your own work.
+
+
 ***
 
 <a href="https://github.com/ferdenzel008/Pipetrends/blob/main/docs/readme.md#pipetrends"><img src="https://github.com/ferdenzel008/Pipetrends/blob/main/docs/images/Documentation.png" height=300></a>
