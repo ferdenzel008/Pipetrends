@@ -460,7 +460,7 @@ By consolidating YouTube trends and Google search insights into a single storage
 
 Word Cloud                 |  Content Gaps             | Trend Alignment
 :-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/ferdenzel008/Pipetrends/blob/main/sampleoutputs/wordcloud.png)  |  ![](https://github.com/ferdenzel008/Pipetrends/blob/main/sampleoutputs/contentgaps.png) | ![](https://github.com/ferdenzel008/Pipetrends/blob/main/sampleoutputs/trend_alignment.png)
+![](https://github.com/ferdenzel008/Pipetrends/blob/main/samples/Sample%20Jupyter%20Outputs/wordcloud.png)  |  ![](https://github.com/ferdenzel008/Pipetrends/blob/main/samples/Sample%20Jupyter%20Outputs/contentgaps.png) | ![](https://github.com/ferdenzel008/Pipetrends/blob/main/samples/Sample%20Jupyter%20Outputs/trend_alignment.png)
 
  The visualizations highlight insights from YouTube and Google Trends data.
  
