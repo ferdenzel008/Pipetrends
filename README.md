@@ -1,6 +1,6 @@
 <p align="center">
  
-  [<img src="https://github.com/ferdenzel008/Pipetrends/blob/main/images/Pipetrends.png" height="400"></a>](https://github.com/ferdenzel008/Pipetrends/tree/main/docs)
+  [<img src="https://github.com/ferdenzel008/Pipetrends/blob/main/images/Pipetrends.png" height="400">](https://github.com/ferdenzel008/Pipetrends/tree/main/docs)
  
 </p>
 
